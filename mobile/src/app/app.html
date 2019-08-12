@@ -1,0 +1,28 @@
+
+<ion-menu [content]="content">
+  <ion-header>
+  </ion-header>
+
+  <ion-content class="">
+    <ion-item no-lines class="menu-header" class="smenu-custom rmcha-menu">
+      <!-- <ion-img class="logo_menu"></ion-img> -->
+        <ion-img class="header-logo"></ion-img>
+   <h1 padding-top >Cap</h1>
+
+
+    </ion-item>
+    <ion-list no-lines padding-left>
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+      <button menuClose ion-item (click)="sync()" >
+        Sync
+      </button>
+
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

@@ -1,0 +1,70 @@
+
+.cap-dashboard-title {
+    margin-top: 5px;
+    color: #d85c54;
+  }
+  .cap-dashboard-title::after {
+    display: block;
+    content: '';
+    width: 102%;
+    height: 2px;
+    background: grey;
+    margin-top: 5px;
+  }
+  .cap-dashboard-container {
+    margin-top: 80px;
+    margin-bottom: 21px;
+  }
+  .cap-dashboard-container .areadrop {
+    padding-left: 27px;
+    padding-top: 27px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #f7ede9;
+  }
+  .back{
+    display: inline-flex;
+  }
+  .back-arrow{
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .goback{
+    cursor: pointer;
+    padding-left: 5px;
+    font-weight: 500;
+  }
+  .send-btn{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .send{
+    background-color: #d85c54;
+    border-radius: 0;
+    width: 14%;
+  }
+  .indicatorname{
+    display: flex;
+  }
+  .indicatorname h5{
+    font-size: 18px;
+  }
+  .timeperiod{
+    padding-left: 20px;
+  }
+  .back-title{
+    background-color: #d85c54;
+    color: #fff;
+    border-radius: 0;
+    z-index: 999;
+    position: absolute;
+    top: 60px;
+  }
+
+div#table-fixed-containertab2 {
+  margin-top: 30px;
+}
+.cap-chart-middle{
+  text-align: center;
+  margin-top: 80px;
+}

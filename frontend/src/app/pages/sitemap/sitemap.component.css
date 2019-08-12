@@ -1,0 +1,74 @@
+.cap-dashboard-title{
+   margin-top: 5px;
+   color: #d85c54;
+ }
+ .cap-dashboard-title::after{
+   display: block;
+   content: '';
+   width: 100%;
+   height: 2px;
+   background: grey;
+   margin-top: 5px;
+ }
+.txt{
+   text-align: justify;
+}
+.nav-link{
+   padding-left: 0;
+   color: black;
+   width: max-content;
+}
+.nav-link:hover{
+   text-decoration: underline;
+}
+ .siteMapData{
+    margin-top: 20px;
+    margin-bottom: 141px;
+ }
+.cap-body-content{
+   margin-top: 80px;
+}
+/*//////////  code for mozilla /////////*/
+@supports (-moz-appearance:none){
+   .cap-body-content{
+      margin-top: 76px;
+   }
+}
+
+/*////////// media query start from here ///////////*/
+
+@media screen and (max-width: 1200px){
+   .cap-body-content{
+      margin-top: 87px;
+   }
+}
+
+ @media screen and (max-width: 1024px){
+    .cap-body-content{
+       margin-top: 90px;
+       margin-bottom: 0px;
+    }
+ }
+ @media screen and (max-width: 608px){
+    .cap-body-content{
+      margin: 88px 0 165px 55px;
+   }
+}
+@media screen and (max-width: 560px){
+   .cap-body-content{
+      margin-left: 0;
+      margin-bottom: 0;
+   }
+}
+@media screen and (max-width: 480px){
+   .cap-body-content{
+      margin-left: 25px;
+      margin-bottom: 0;
+   }
+}
+@media screen and (max-width: 360px){
+   .cap-body-content{
+      margin-top: 75px;
+      margin-bottom: 0;
+   }
+}

@@ -1,0 +1,248 @@
+<div class="container user-cont modal-dis">
+    <mat-tab-group dynamicHeight>
+        <mat-tab label="Create New User" >
+            <div class="container user-manage">
+                <div class="row question-row">
+                    <div class="col-md-10 content-sec offset-md-1">
+                        <div class="user-heading">
+                            <h3>Create New User</h3>
+                        </div>
+
+                        <form class="all-fields row" #f="ngForm" (submit)="f.valid ?submitForm(f):''">
+                            <div class="selection-fields col-md-6">
+                                <label for="usr">Full Name<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <input matInput name="name" [(ngModel)]="fullName" required pattern="^[a-zA-Z][a-zA-Z\s\.\./]+$">
+                                    <mat-error class="padding-bottom ">
+                                        {{f.controls['name']?.errors?.pattern ? 'Only characters, dot(.) and space can
+                                        be accepted':'Please provide full name'}}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="selection-fields col-md-6">
+                                <label for="usr">Email Id<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <input matInput class="nospinner" type="text" pattern='^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$'
+                                        name="email" [(ngModel)]="email" required>
+                                    <mat-error class="padding-bottom ">
+                                        {{f.controls['email']?.errors?.pattern ? 'Please enter valid email.':'Please
+                                        enter valid email.'}}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="selection-fields col-md-6">
+                                <label for="usr">Username<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <input matInput name="username" [(ngModel)]="userName" required pattern="^[a-z0-9_-]{3,15}$">
+                                    <mat-error class="padding-bottom ">
+                                        {{f.controls['username']?.errors?.pattern ? 'Only 3-15 characters,hyphen(-) and
+                                        underscore(_) can be accepted':'Please provide username'}}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="selection-fields col-md-6">
+                                <label for="usr">Password<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <input matInput name="password" [(ngModel)]="password" required pattern="^\S*$">
+                                    <mat-error class="padding-bottom ">
+                                        {{f.controls['password']?.errors?.pattern ? 'Spaces are not accepted':'Please
+                                        provide password'}}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="selection-fields col-md-6">
+                                <label for="usr">User Role<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <mat-select [(ngModel)] = "selectedRoleId" name="role" required  (selectionChange)="roleSelected()">
+                                        <mat-option *ngFor="let opt of userManagementService.formFieldsAll" [value]="opt.id">
+                                            {{opt.name}}
+                                        </mat-option>
+                                    </mat-select>
+                                    <mat-error class="padding-bottom ">
+                                        Please provide user role
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="selection-fields col-md-6" *ngIf="distrcitLevelUser">
+                                <label for="usr">District<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <mat-select [(ngModel)]="selectedDistrictId" name="district" required>
+                                        <mat-option *ngFor="let opt of userManagementService.districts" [value]="opt.code">
+                                            {{opt.areaname}}
+                                        </mat-option>
+                                    </mat-select>
+                                    <mat-error class="padding-bottom ">
+                                        Please provide District
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="selection-fields col-md-6">
+                                <label for="usr">Department<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <mat-select [(ngModel)]="selectedDepartmentId" name="department" required>
+                                        <mat-option *ngFor="let opt of userManagementService.departments" [value]="opt.id">
+                                            {{opt.name}}
+                                        </mat-option>
+                                    </mat-select>
+                                    <mat-error class="padding-bottom ">
+                                        Please provide department
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="form-group" [ngClass]="'col-md-12 mt-btn text-center'">
+                                <button class="btn btn-default proceed-btn user-submit" type="submit">Create</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </mat-tab>
+        <mat-tab label="Edit User">
+            <app-edit-user-details></app-edit-user-details>
+        </mat-tab>
+    </mat-tab-group>
+</div>
+
+<!-- Create New User Modal -->
+
+<div class="modal fade" id="successMatch" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+    data-backdrop="static">
+    <div class="modal-dialog modal-notify modal-error" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="heading lead text-center">Success</p>
+            </div> 
+            <div class="modal-body">
+                <div class="text-center">
+                    <p> {{validationMsg}}</p>
+                </div>
+                <button type="button" class="btn btn-secondary m-auto d-block modal-btn justify-content-center" (click)="successModal()">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="oldPassNotMatch" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+    data-backdrop="static">
+    <div class="modal-dialog modal-notify modal-error" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header data-error">
+                <p class="heading lead text-center">Error</p>
+            </div>
+            <div class="modal-body">
+                <div class="text-center">
+                    <p>{{validationMsg}}</p>
+                </div>
+                <button type="button" class="btn btn-secondary m-auto d-block modal-btn justify-content-center" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Reset Password Modal -->
+
+<div class="modal fade" id="resetPassModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-notify modal-error" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <p class="heading lead">Reset Password</p>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+                <div class="col-md-12 select-container">
+                    <form [noValidate]="false" #newF="ngForm" (submit)="newF.valid ?submitModal(newF):''" >  
+                        <div class="row">
+                            <div class="col login-pwd">
+                                <label for="usr">New Password<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <input matInput [(ngModel)]="newPassword" name='pass' required pattern="^\S*$">
+                                    <mat-error class="padding-bottom ">
+                                        {{newF.controls['pass']?.errors?.pattern ? 'Spaces are not accepted':'Please provide new password'}}                               
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col login-pwd">
+                                <label for="pwd">Confirm Password<span style="color:red; font-weight:500;">*</span> :</label>
+                                <mat-form-field>
+                                    <input matInput type="password" name="confirmpass" [(ngModel)]="confirmPassword"required>
+                                </mat-form-field>
+                                <div *ngIf="confirmPassword && confirmPassword != newPassword" class="material-error">The New password and Confirm password do not match.</div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="text-center col">
+                                <button type="button" class="btn modal-cancel" data-dismiss="modal" (click)="resetBox(user); newF.resetForm()">Cancel</button>
+                                <button type="submit" class="btn modal-btn" style="margin-left: 10px;">Submit</button>                                    
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<div id="disableUserModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-notify modal-error" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="heading lead">INFO</p>
+            </div>
+            <div class="modal-body">
+                <div class="text-center">
+                    <p>Are you sure you want to disable?</p>  
+                    <button type="button" class="btn btn-secondary m-auto modal-btn" (click)="disableUserDetails()" style="margin-right:5px !important;">Yes</button>
+                    <button type="button" class="btn btn-secondary m-auto modal-btn" data-dismiss="modal">No</button>
+                </div>                   
+            </div>          
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="enableUser" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-notify modal-error" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <p class="heading lead">Success</p>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+                <div class="text-center">
+                    <p>{{validationMsg}}</p>
+                </div>
+                <button type="button" class="btn btn-secondary m-auto d-block modal-btn" data-dismiss="modal" (click)="userStatus()">Ok</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<div class="modal fade" id="enableUserSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-notify modal-error" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <p class="heading lead">Success</p>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+                <div class="text-center">
+                    <p>User enabled successfully</p>
+                </div>
+                <button type="button" class="btn btn-secondary m-auto d-block modal-btn" data-dismiss="modal" (click)="userStatus()">Ok</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>

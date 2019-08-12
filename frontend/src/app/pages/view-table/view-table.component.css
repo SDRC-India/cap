@@ -1,0 +1,28 @@
+.back-title{
+ cursor: pointer;
+ font-size: 15px;
+ font-weight: 500;
+ padding-left: 5px;
+}
+.back{
+    display: inline-flex;
+    padding-top: 20px;
+}
+.back-arrow{
+    cursor: pointer;
+    font-weight: 500;
+}
+.dropdown-section{
+    margin-top: 15px;
+    /* background-color: #d85c54; */
+}
+.view-section{
+    width: 90%;
+    background-color: #f2beaa;
+}
+.table-view{
+    margin-top: 28px;
+}
+.indicator{
+    font-size: 15px;
+}

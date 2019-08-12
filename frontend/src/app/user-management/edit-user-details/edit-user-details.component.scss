@@ -1,0 +1,106 @@
+.content-sec {
+  padding-top: 15px;
+}
+.user-label{
+    max-width: 18.666667% !important;
+}
+.edit-user{
+  background-color: white;
+  margin-bottom: 73px;
+  margin-top: 0px;
+}
+.user-heading {
+  border-bottom: 2px solid #808080;
+}
+.user-heading  h3{
+  font-size: 20px;
+  color: #d85c54;
+}
+.user-details-tbl {
+  padding-top: 18px;
+}
+
+.btn.user-submit {
+  background-color: #333;
+  border-radius: 0;
+  width: 120px;
+  color: #FFF;
+}
+#resetPassModal .modal-header, #successMatch .modal-header, #disableUserModal .modal-header, #enableUser .modal-header{
+  height: 39px;
+  padding: 3px 14px;
+}
+.no-user {
+  text-align: center;
+  font-weight: bold;
+  color: #F00;
+  margin-top: 30px;
+}
+.material-error{
+  color: #f44336;
+  font-size: 75%;
+  margin-top: -12px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+p.heading.lead {
+  font-weight: bold;
+  color: #333;
+}
+.modal-btn {
+  border-radius: 0;
+  color: #FFF;
+  background-color: #333 ;
+}
+.modal-cancel{
+  border-radius: 0;
+  color: #FFF;
+  background-color: #333;
+}
+.reset-pass-btn{
+  border-radius: 0;
+  color: #000;
+  // background-color: #333;
+  // border: 1px solid;
+  margin-right: 5px;
+  font-size:13px;
+}
+.sl-no{
+  width: 9%;
+}
+#resetPassModal{
+  z-index: 1050;
+}
+
+/** media query starts here **/
+@media(max-width: 1200px){
+  .edit-user{
+    margin-bottom: 53px;
+  }
+}
+@media(max-width: 1200px){
+  .edit-user{
+    margin-bottom: 29px;
+  }
+}
+@media(max-width: 767px){
+  .left-list{
+    width: 50%;
+    z-index: 1000;
+    padding-top: 40px;
+  }
+  .mt-btn{
+    text-align: center !important;
+  }
+}
+@media(max-width: 480px){  
+  .edit-user{
+    margin-bottom: 116px;
+  }
+}
+@media(max-width: 360px){  
+  .edit-user{
+    margin-bottom: 55px;
+  }
+}

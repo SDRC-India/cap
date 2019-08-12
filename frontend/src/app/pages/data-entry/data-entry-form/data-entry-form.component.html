@@ -1,0 +1,32 @@
+<div class="container-fluid cap-dashboard-container left-marg">
+    <div class="col-md-12 dashname">
+      <h4 class="cap-dashboard-title">Data Entry Form</h4>
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="col-md-12">
+    <div class="back">
+        <button mat-flat-button color="primary"  class="back-title"  (click)="goback()"> Back</button>
+        <!-- <i class="material-icons back-arrow" (click)="goback()"> arrow_back </i> <span class="goback" (click)="goback()">Back</span> -->
+    </div>
+
+    <div class="indicatorname">
+        <h5>FrequencyType:   {{service.selectedFrequencyName}}</h5>
+        <h5 class="timeperiod">TimePeriod:   {{service.SelectedTimePeriodName}} </h5>
+    </div>
+    <div class="main" style="padding-top:60px;" *ngIf="tableData!=null && tableData.tableColumns[1]">   
+        <sdrc-table [id]="'tab2'"
+        [rowData]="service.tableData.tableData" [columnData]="service.tableData.tableColumns"
+        [maxTableHeight]="'600px'" [sorting]="false" [isPaginate]="false" [isThreeDimension]="true" [threeDColumnData]="service.tableData.tableHead" 
+        [itemsPerPage]="5" [searchBox]="false" [downloadPdf]="false" >
+        </sdrc-table>
+
+    </div> 
+    <div class="cap-chart-middle" *ngIf="tableData!=null && !tableData.tableColumns[1]">
+        <div class="no-data-found">No data found</div>
+      </div>
+    <div class="col-md-12 send-btn" *ngIf="tableData!=null && tableData.tableColumns[1]">
+        <button mat-flat-button color="primary" type="submit" class="send" (click)="submit()"> Submit</button>
+    </div>
+  </div>
+</div>

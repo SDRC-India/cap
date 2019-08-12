@@ -1,0 +1,87 @@
+STEP-1
+
+
+CREATE OR REPLACE FUNCTION public.baselineandmrtupdate()
+  RETURNS trigger AS
+$BODY$
+
+DECLARE
+    indicatorid INTEGER;
+    sectorid INTEGER;
+    sourceid INTEGER;
+    tp INTEGER;
+    areaid INTEGER;
+    pdcity VARCHAR;
+   details RECORD;
+   depmnt INTEGER;
+   counter integer DEFAULT 0;
+   index integer DEFAULT 0;
+
+BEGIN
+    indicatorid :=NEW.indicator_id_fk;
+    sectorid :=NEW.sector_id_fk;
+    sourceid :=NEW.source_id_fk;
+    tp :=NEW.time_period_id_fk;
+    areaid :=NEW.area_id_fk;
+    pdcity :=NEW.periodicity;
+    depmnt :=NEW.department_id_fk;
+
+FOR details IN  select * from data AS da WHERE da.indicator_id_fk=indicatorId AND da.sector_id_fk=sectorId AND 
+ da.source_id_fk=sourceId AND da.periodicity=periodicity AND da.area_id_fk=areaId AND da.department_id_fk=depmnt AND is_live=true
+  ORDER BY da.time_period_id_fk asc
+
+LOOP
+  --RAISE NOTICE 'RECORD :%',details;
+	counter:=counter+1;
+END LOOP;
+
+--RAISE NOTICE 'indicatorid :%',indicatorid;
+--RAISE NOTICE 'sectorid :%',sectorid;
+--RAISE NOTICE 'sourceid :%',sourceid;
+--RAISE NOTICE 'tp :%',tp;
+--RAISE NOTICE 'areaid :%',areaid;
+--RAISE NOTICE 'pdcity :%',pdcity;
+
+FOR details IN  select * from data AS da WHERE da.indicator_id_fk=indicatorId AND da.sector_id_fk=sectorId AND 
+ da.source_id_fk=sourceId AND da.periodicity=periodicity AND da.area_id_fk=areaId AND da.department_id_fk=depmnt AND is_live=true
+  ORDER BY da.time_period_id_fk asc
+  
+LOOP
+
+ RAISE NOTICE 'COUNTER :%',counter;
+
+	 IF counter=1 THEN
+		UPDATE data set is_mrt=true,is_baseline=true WHERE indicator_id_fk=indicatorId AND sector_id_fk=sectorId AND 
+			source_id_fk=sourceId AND periodicity=pdcity AND area_id_fk=areaId AND department_id_fk=depmnt AND is_live=true AND time_period_id_fk=details.time_period_id_fk;
+		
+
+	 ELSEIF index=0 THEN
+	        UPDATE data set is_mrt=false,is_baseline=true WHERE indicator_id_fk=indicatorId AND sector_id_fk=sectorId AND 
+			source_id_fk=sourceId AND periodicity=pdcity AND area_id_fk=areaId AND department_id_fk=depmnt AND is_live=true AND time_period_id_fk=details.time_period_id_fk;
+
+	ELSEIF index=counter-1 THEN
+		UPDATE data set is_mrt=true,is_baseline=false WHERE indicator_id_fk=indicatorId AND sector_id_fk=sectorId AND 
+			source_id_fk=sourceId AND periodicity=pdcity AND area_id_fk=areaId AND department_id_fk=depmnt AND is_live=true AND time_period_id_fk=details.time_period_id_fk;
+	ELSE
+		UPDATE data set is_mrt=false,is_baseline=false WHERE indicator_id_fk=indicatorId AND sector_id_fk=sectorId AND 
+			source_id_fk=sourceId AND periodicity=pdcity AND area_id_fk=areaId AND department_id_fk=depmnt AND is_live=true AND time_period_id_fk=details.time_period_id_fk;				
+		
+	END IF;
+
+index:=index+1;
+
+END LOOP;
+
+RETURN NULL;
+END;
+
+$BODY$
+  LANGUAGE plpgsql VOLATILE
+  COST 100;
+ALTER FUNCTION public.baselineandmrtupdate()
+  OWNER TO postgres;
+
+
+
+STEP-2
+CREATE TRIGGER UPDATE_DATA AFTER INSERT ON data FOR EACH ROW EXECUTE PROCEDURE baselineandmrtupdate();

@@ -1,0 +1,92 @@
+.cap-dashboard-title {
+    margin-top: 5px;
+    color: #d85c54;
+    }
+.cap-dashboard-title::after {
+    display: block;
+    content: '';
+    width: 102%;
+    height: 2px;
+    background: grey;
+    margin-top: 5px;
+  }
+.cap-dashboard-container {
+    margin-top: 80px;
+    margin-bottom: 21px;
+  }
+.cap-dashboard-container .areadrop {
+    padding-left: 27px;
+    padding-top: 27px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #f7ede9;
+  }
+
+  .login-form-container{
+    height: auto;
+    background-color: white;
+    box-shadow:  0px 0px 2px grey;
+    position: absolute;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+  .login-submit {
+    width: 33%;
+    margin: 0px 0 -10px;
+    /* padding: 0rem 0rem;  */
+    background-color: #d85c54 !important;
+    border-radius: 0rem;
+    color: #FFF;
+  }
+  
+  .login-header {
+    height: 50px;    
+    padding: 10px;
+    color: #444444;
+    font-family: sans-serif;
+    font-size: x-large;    
+  }
+  .container-body {
+    padding: 20px;
+    padding-top: 0;
+  }
+  
+  .error-message{
+    text-align: center;
+    color: rgb(245, 72, 72);
+  }  
+  .forgotpass{ 
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1f497b;
+  }
+  /* .container-fluid {
+      padding: 250px;
+  } */
+  .login-pwd .mat-form-field{
+    width: 100%;
+  }
+  .login-pwd input[type=password]{
+    border: none;
+    height: 18px;
+  }
+  .first-sec{
+    margin-top: 25px;
+  }
+  .btn-row{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .login-header strong {
+    font-weight: bolder;
+    color: #333;
+  }
+  mat-form-field {
+    background-color: aliceblue;
+    height: 36px !important;
+    left: 0px !important;
+    /* border-bottom: 1px solid #999 !important; */
+  }

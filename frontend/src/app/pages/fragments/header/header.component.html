@@ -1,0 +1,132 @@
+<nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
+    
+  <div class="row">
+      <div class="col-md-3 head-info">
+          <ul class="left-logo">
+              <li><a href="http://gov.bih.nic.in" target="_blank">
+                    <img title="" class="govt-logo" src="assets/logo/cap.png" alt="gov-logo">
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+    
+  <div class="breadcrumb-dn mr-auto">
+      <h1 class="heading-title">Convergence Action Plan</h1>
+  </div>
+
+  <button class="navbar-toggler" type="button" *ngIf="app.checkLoggedIn()" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+      <i class="material-icons"> menu</i>
+  </button>
+  <div class="mobile-view">
+    <ul>
+      <li class="nav-item" routerLink="/"  data-toggle="modal"  *ngIf="(!app.checkLoggedIn() && router.url!='/')">
+        <a  class="nav-link main-menu" ><i class="fa fa-home fa-5x"></i></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="nav navbar-nav nav-flex-icons  ml-auto">
+          <li class="nav-item"  data-toggle="modal" data-target="#myModalLog" *ngIf="app.checkLoggedIn()">
+            <a  class="nav-link main-menu" ><span class="d-sm-inline-block">Home</span></a>
+          </li>
+
+          <li class="nav-item" routerLink="/"  data-toggle="modal"  *ngIf="(!app.checkLoggedIn() && router.url!='/')">
+            <a  class="nav-link main-menu" ><span class="d-sm-inline-block">Home</span></a>
+          </li>
+
+          <li class="nav-item" *ngIf="app.checkLoggedIn() && app.checkUserAuthorization(['DATA_COLLECTION'])" >
+            <a  class="nav-link main-menu" routerLink="/data-entry"><span [ngClass]="{'active': router.url == '/data-entry' || router.url == '/data-entry/data-entry-form'}" class="d-sm-inline-block">Data Entry</span></a>
+          </li>
+
+          <li class="nav-item" *ngIf="app.checkLoggedIn() && app.checkUserAuthorization(['USER_MGMT_ALL_API'])" >
+            <a  class="nav-link main-menu" routerLink="/target-entry"><span [ngClass]="{'active': router.url == '/target-entry' || router.url == '/target-entry/target-entry-form'}" class="d-sm-inline-block">Target Entry</span></a>
+          </li>
+
+          <li class="nav-item" *ngIf="!!app.checkLoggedIn()" >
+            <a class="nav-link main-menu" routerLink="/report"><span [ngClass]="{'active': router.url == '/report'}" class="d-sm-inline-block">Raw Data</span></a>
+          </li>
+
+          <li class="nav-item dropdown" [ngClass]="{'active': router.url =='/dashboard' || router.url =='/dashboard/thematic'}" *ngIf="app.checkLoggedIn()">
+            <a class="nav-link  dropdown-toggle"  data-toggle="dropdown" ><span class="d-sm-inline-block">Dashboard</span></a>
+            <div class="dropdown-menu arrow">
+                <div class="triangle-up"></div>
+                <a class="dropdown-item" routerLink="/dashboard">Snapshot View </a>
+                <a class="dropdown-item" routerLink="/dashboard/thematic">Thematic View</a>
+            </div>
+          </li>
+
+          <li class="dropdown user-name" [hidden]="!app.checkLoggedIn()">
+            <span class="welcome-name"> Hello, <strong>{{app.getUsername()}}</strong></span>
+          </li>
+
+          <li class="nav-item d-none" routerLink="login" [ngClass]="{'active': router.url=='/login'}" *ngIf="!app.checkLoggedIn()">
+            <a class="nav-link main-menu" routerLink="/login"><span class="  d-sm-inline-block" style="color:#d85c54;">Login</span></a>
+          </li>
+
+          <li class="nav-item dropdown setting-icon" *ngIf="!!app.checkLoggedIn()">
+              <a class="dropdown-toggle setting-icon-link nav-link" data-toggle="dropdown" href="#"></a>
+              <!-- <div class="dropdown-menu setting-menu">
+                  <div class="dropdown-content">
+                    <div class="triangle-up-setting"></div>
+                    <li class="nav-item setting-icon-lists" routerLink="login" *ngIf="app.checkLoggedIn()" (click)="logout()">
+                      <a class="nav-link admin-group">
+                        <span class=" d-sm-inline-block">Logout</span>
+                      </a>
+                    </li>
+                    <li class="nav-item setting-icon-lists" *ngIf="app.checkLoggedIn()">
+                      <a class="nav-link admin-group" routerLink="/change-password">
+                        <span class="clearfix d-sm-inline-block">Change Password</span>
+                      </a>
+                    </li>
+                    <li class="nav-item setting-icon-lists" *ngIf="app.checkLoggedIn() && app.checkUserAuthorization(['USER_MGMT_ALL_API'])">
+                      <a class="nav-link admin-group" routerLink="/user-management">
+                        <span class="clearfix d-sm-inline-block">User Management</span>
+                      </a>
+                    </li>
+                  </div>
+              </div> -->
+
+              <div class="dropdown-menu arrow-welcome" >
+                <div class="triangle-up-welcome"></div>
+                <a class="dropdown-item" routerLink="login" *ngIf="app.checkLoggedIn()" (click)="logout()">Logout</a>
+                <a class="dropdown-item" routerLink="/change-password" *ngIf="app.checkLoggedIn()">Change Password</a>
+                <a class="dropdown-item" routerLink="/user-management" *ngIf="app.checkLoggedIn() && app.checkUserAuthorization(['USER_MGMT_ALL_API'])">User Management</a>
+            </div>
+          </li>  
+      </ul>
+  </div>
+</nav>
+<!-- /.Navbar -->
+
+
+<div class="alert alert-primary text-center logged logged-out-success" *ngIf="app.logoutSuccess">
+    <span class="loggedout-msg"><strong>Successfully logged out!</strong></span>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalLog" role="dialog" *ngIf="app.checkLoggedIn()">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header error-header">
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        <h4 class="modal-title">Warning</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center">Do you really want to Logout?</p>
+      </div>
+     
+      <div class="modal-footer custom-footer justify-content-center">
+        <button type="button" (click)="logout()" class="btn btn-default modal-btn" data-dismiss="modal">Yes</button>
+        <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+    
+  </div>
+</div>

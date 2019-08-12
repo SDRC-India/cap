@@ -1,0 +1,150 @@
+
+<div class="container-fluid cap-dashboard-container left-marg">
+  
+  <!-- title and date work -->
+  <div class="row justify-content-between cap-dashboard-dropdown-row">
+    <div class="col dashname">
+      <h4 class="cap-dashboard-title">Snapshot View</h4>
+    </div>
+  </div>
+
+
+  <!-- area dropdown and pdf excel download work -->
+  <div class="row areadrop">
+
+    <!-- area work -->
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res">
+        <mat-form-field >
+            <mat-label class="label-text">State</mat-label>
+            <mat-select [(value)]="selectedStateCode" [disabled]="service.showMainContent">
+              <mat-option *ngFor="let area of areas | area: 'IND'" [value]="area.code">
+                {{area.areaname}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res">
+        <mat-form-field floatLabel="never">
+            <mat-label  class="label-text">All District</mat-label>
+            <mat-select  [(value)]="selectedDistrictCode"  [disabled]="service.showMainContent">
+                <mat-option (onSelectionChange)="districtChanged(null,$event)" 
+                >All</mat-option>
+              <mat-option (onSelectionChange)="districtChanged(area,$event)" *ngFor="let area of areas | area: selectedStateCode" [value]="area.code">
+                {{area.areaname}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res" *ngIf="service.showMainContent">
+        <mat-form-field >
+            <mat-label class="label-text">Time Period</mat-label>
+            <mat-select [(ngModel)]="selectedTimePeriodId" (selectionChange)="selectTimeperiod(selectedTimePeriodId)" >
+              <mat-option *ngFor="let tp of cardTimePeriodList" [value]="tp.id" >
+                {{tp.tpName}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <!-- pdf and excel icon work -->
+    <div class="col-md-3 col-sm-12 cap-icons">
+        <!-- <i class="far fa-file-excel" style="color: #795343;font-size: 25px; margin-right: 5px;cursor: pointer;" (click)="downloadExcel()" data-toggle="tooltip" title="Download Excel"></i>
+        <i class="far fa-file-pdf" style="color: #795343;font-size: 25px;cursor: pointer;" (click)="downloadPDF()" data-toggle="tooltip" title="Download PDF"></i> -->
+    </div>
+  </div>
+  <hr>
+</div>
+
+<!--dashboard chart section start-->
+<div class="container-fluid left-marg">
+  <div class="row dashboard-body-div" id="all">
+
+    <!--dashboard left pannel-->
+    <div class="col-lg-2 col-md-2 col-sm-3 cap-dashboard-theme" id = "theme-div">
+        <div class="dept-drop-down">
+            <h5 class="select-theme-title">Select Department</h5>
+            <mat-form-field>
+                <mat-label class="label-text"></mat-label>
+                <mat-select [(value)]="service.selectedDepartmentId" (selectionChange)="departmentChanged($event.value)">
+                  <mat-option *ngFor="let dept of departments" [value]="dept.id">
+                    {{dept.name}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+          </div>
+        <h5 class="select-theme-title">Select Theme</h5>
+        <div class="select-scroll">
+        <div *ngFor="let theme of themes; let i = index" class="cap-theme-item"  (click)="themeSelected(theme.id)" [ngClass]="{'background-selected':service.selectedSectorId === theme.id}">
+          <!-- <div class="alphabet-item">{{getChar(i)}}. </div> -->
+          <div class="theme-item">{{theme.name}}</div>            
+        </div>
+        </div>
+    </div>
+    
+    <!-- chart work -->
+    <div class="col-lg-10 col-md-10 col-sm-9 cap-dashboard-kpi-and-chart">
+      
+      
+      <div class="row cap-dashboard-chart-row" *ngIf="service.showCard">
+        <div class="col cap-chart" *ngIf="!showMainContent" >
+          <div class="col-md-3 card-box" *ngFor="let cardvalue of cardlist" >
+                <mat-card class="indicator-box" (click)="showTable(cardvalue)">
+                    <div class="chart-head row">
+                      <div class="col-md-12 indicatorvalue">
+                          <span>{{cardvalue.indicatorValue}}</span>
+                      </div>
+                        <div class=" col-md-12 ind-group"><p class="indicator-over">{{cardvalue.indicatorName | readMore }}</p></div>
+                        <div class="col-md-12 source-time">
+                          <div class="col-md-6">
+                              <span > {{cardvalue.source}} </span>
+                          </div>
+                          <div class="col-md-6 timeperiod">
+                              <span>{{cardvalue.timeperiod}}</span>
+                          </div>
+                        </div>                      
+                      </div>                                         
+                </mat-card>
+          </div>         
+        </div>          
+        </div>
+        <div class="cap-chart-middle" *ngIf="cardlist  == undefined">
+          <div class="no-data-found">No data found</div>
+        </div>
+        <!-- <app-view-table></app-view-table> -->
+<!-- View Table Section start -->
+        <div class="view-section" *ngIf="service.showMainContent">
+          <div class="col-md-1 back" >
+              <button mat-flat-button color="primary"  class="back-title"  (click)="showHide()"> Back</button>
+            <!-- <i class="material-icons back-arrow" (click)="showHide()"> arrow_back </i><span (click)="showHide()" class="back-title">Back</span> -->
+          </div>
+          <!-- <div class="container dropdown-section">
+            <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res"  >
+              <mat-form-field floatLabel="never">
+                  <mat-label class="label-text">Select Time Period</mat-label>
+                  <mat-select [(ngModel)]="selectedTimePeriodId" (selectionChange)="selectTimeperiod(selectedTimePeriodId)">
+                    <mat-option *ngFor="let tp of cardTimePeriodList" [value]="tp.id" >
+                      {{tp.tpName}}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+               
+            </div>
+          </div> -->  
+        </div>
+      </div>     
+    </div>
+  </div>
+
+  <div class="container-fluid">
+      <div class="col-md-12 indicator-back" *ngIf="service.showMainContent">
+          <h5 class="indicator">Indicator Name: {{service.selectedIndicatorName}}</h5> 
+      </div>
+  </div>
+      
+  <div class="container-fluid"> 
+      <div class="col-md-12 table-view" *ngIf="service.showMainContent">
+          <sdrc-table [id]="'tab2'" *ngIf="tableData"
+          [rowData]="tableData" [columnData]="tableColumns | removeArray:'[tpId,id ,indicatorId, css]'" [maxTableHeight]="'600px'" [sorting]="true" [isPaginate]="false" 
+          [itemsPerPage]="5" [searchBox]="true" [downloadPdf]="false" [downloadExcel]="true" [excelName]="true">
+          </sdrc-table>
+      </div>
+  </div>

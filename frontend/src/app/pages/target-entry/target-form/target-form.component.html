@@ -1,0 +1,90 @@
+<div class="container-fluid cap-dashboard-container left-marg">
+  <div class="col-md-12 dashname">
+    <h4 class="cap-dashboard-title">Target Entry</h4>
+  </div>
+</div>
+<div class="container">
+  <div class="login-form-container">
+    <!-- <header class="col-lg-12 login-header" style="text-align:center;"><strong>User Login</strong></header> -->
+    <div class="container-body">
+     <div class="row">
+        <div class="col-md-6">
+            <div class="login-pwd first-sec">
+                <label class="snap-level">State</label>
+                <mat-form-field>
+                    <mat-select [(ngModel)]="selectedState">
+                        <mat-option *ngFor="let area of areas | areaPipe: 'IND'" [value]="area.code">
+                            {{area.areaname}}
+                          </mat-option>
+                    </mat-select>
+                    <mat-error class="padding-bottom">
+                      Please select State
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="login-pwd first-sec">
+                <label class="snap-level">District</label>
+                <mat-form-field>
+                  <mat-select [(value)]="service.districtCode">
+                      <mat-option (onSelectionChange)="districtChange(area,  $event)" *ngFor="let area of areas | areaPipe: selectedState" [value]="area.code"> 
+                          {{area.areaname}}
+                        </mat-option>
+                  </mat-select>
+                    <mat-error class="padding-bottom">
+                      Please Select District
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+          </div>
+     </div>
+     <div class="row">
+        <div class="col-md-6">
+            <div class="login-pwd">
+                <label class="snap-level">Sector</label>
+                <mat-form-field>
+                    <mat-select [(ngModel)]="service.sectorId">
+                        <mat-option (onSelectionChange)="sectorChange(theme,  $event)" *ngFor="let theme of themes; let i = index" [value]="theme.id"> 
+                            {{theme.name}}
+                          </mat-option>
+                    </mat-select>
+                    <mat-error class="padding-bottom">
+                      Please Select Timeperiod
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+          </div>
+  
+          <div class="col-md-6">
+            <div class="login-pwd">
+                <label class="snap-level">Financial Year</label>
+                <mat-form-field>
+                    <mat-select [(ngModel)]="service.financialYearId">
+                      <mat-option (onSelectionChange)="financialYearChange(opt, $event)" *ngFor="let opt of financialYear" (onSelectionChange)="financialYearChange(opt)" [value]="opt.id">{{opt.financialYear}}</mat-option>
+                    </mat-select>
+                    <mat-error class="padding-bottom">
+                      Please Select Financial year
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+          </div>
+     </div>
+
+
+        
+        <div class="form-group row btn-row">
+          <div class="col">
+            <!-- <button mat-button class="btn btn-default login-submit" routerLink="/data-entry-form">Submit</button> -->
+            <button mat-flat-button color="primary" type="submit" class="send login-submit" [disabled]="!service.financialYearId" (click)="goTodataEntryForm()"> Proceed To Next</button>
+          </div>
+        </div>
+   
+      <!-- <div class="row error-message" *ngIf="app.validationMsg">
+        <div class="col">
+          <b>{{app.validationMsg}}</b>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>

@@ -1,0 +1,118 @@
+{
+    "indicators": [
+      {
+        "indicatorName": "% of anganwadi centres with adequate, functional and safe drinking water supply",
+        "indicatorId": 18,
+        "indicatorValue": "4.57",
+        "timeperiod": "Q1(Apr 2019-Jun 2019)",
+        "periodicity": "Quarterly",
+        "timeperiodId": 2,
+        "chartsAvailable": [
+          "card"
+        ],
+        "align": "col-md-4",
+        "unit": "percent",
+        "chartGroup": "indicators",
+        "source": "ICDS",
+        "departmentId": 1,
+        "departmentName": "Department of Social welfare-ICDS",
+        "sectorId": 10,
+        "sectorName": "Promoting Safe Drinking Water"
+      },
+      {
+        "indicatorName": "% of anganwadi centres with adequate and functional sanitation facilities (toilet)",
+        "indicatorId": 21,
+        "indicatorValue": "25.00",
+        "timeperiod": "Q1(Apr 2019-Jun 2019)",
+        "periodicity": "Quarterly",
+        "timeperiodId": 2,
+        "chartsAvailable": [
+          "card"
+        ],
+        "align": "col-md-4",
+        "unit": "percent",
+        "chartGroup": "indicators",
+        "source": "ICDS",
+        "departmentId": 1,
+        "departmentName": "Department of Social welfare-ICDS",
+        "sectorId": 10,
+        "sectorName": "Promoting Safe Drinking Water"
+      },
+      {
+        "indicatorName": "% of anganwadi centres with adequate, functional and safe drinking water supply",
+        "indicatorId": 18,
+        "indicatorValue": "4.57",
+        "timeperiod": "Q1(Apr 2019-Jun 2019)",
+        "periodicity": "Quarterly",
+        "timeperiodId": 2,
+        "chartsAvailable": [
+          "card"
+        ],
+        "align": "col-md-4",
+        "unit": "percent",
+        "chartGroup": "indicators",
+        "source": "ICDS",
+        "departmentId": 1,
+        "departmentName": "Department of Social welfare-ICDS",
+        "sectorId": 10,
+        "sectorName": "Promoting Safe Drinking Water"
+      },
+      {
+        "indicatorName": "% of anganwadi centres with adequate and functional sanitation facilities (toilet)",
+        "indicatorId": 21,
+        "indicatorValue": "25.00",
+        "timeperiod": "Q1(Apr 2019-Jun 2019)",
+        "periodicity": "Quarterly",
+        "timeperiodId": 2,
+        "chartsAvailable": [
+          "card"
+        ],
+        "align": "col-md-4",
+        "unit": "percent",
+        "chartGroup": "indicators",
+        "source": "ICDS",
+        "departmentId": 1,
+        "departmentName": "Department of Social welfare-ICDS",
+        "sectorId": 10,
+        "sectorName": "Promoting Safe Drinking Water"
+      },
+      {
+        "indicatorName": "% of anganwadi centres with adequate, functional and safe drinking water supply",
+        "indicatorId": 18,
+        "indicatorValue": "4.57",
+        "timeperiod": "Q1(Apr 2019-Jun 2019)",
+        "periodicity": "Quarterly",
+        "timeperiodId": 2,
+        "chartsAvailable": [
+          "card"
+        ],
+        "align": "col-md-4",
+        "unit": "percent",
+        "chartGroup": "indicators",
+        "source": "ICDS",
+        "departmentId": 1,
+        "departmentName": "Department of Social welfare-ICDS",
+        "sectorId": 10,
+        "sectorName": "Promoting Safe Drinking Water"
+      },
+      {
+        "indicatorName": "% of anganwadi centres with adequate and functional sanitation facilities (toilet)",
+        "indicatorId": 21,
+        "indicatorValue": "25.00",
+        "timeperiod": "Q1(Apr 2019-Jun 2019)",
+        "periodicity": "Quarterly",
+        "timeperiodId": 2,
+        "chartsAvailable": [
+          "card"
+        ],
+        "align": "col-md-4",
+        "unit": "percent",
+        "chartGroup": "indicators",
+        "source": "ICDS",
+        "departmentId": 1,
+        "departmentName": "Department of Social welfare-ICDS",
+        "sectorId": 10,
+        "sectorName": "Promoting Safe Drinking Water"
+      }
+    ]
+   }

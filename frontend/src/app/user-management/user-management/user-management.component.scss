@@ -1,0 +1,105 @@
+.content-sec {
+  padding-top: 15px;
+}
+.user-label{
+  max-width: 18.666667% !important;
+}
+.user-cont{
+  margin-top: 90px;
+}
+.user-manage{
+  background-color: white;
+}
+.user-heading {
+  border-bottom: 2px solid #808080;
+}
+.user-heading  h3{
+  font-size: 20px;
+  color: #d85c54;
+}
+.all-fields {
+  padding-top: 18px;
+}
+.selection-fields {
+  display: grid;
+}
+.btn.user-submit {
+  background-color: #333;
+  border-radius: 0;
+  width: 120px;
+  color: #FFF;
+}
+
+#oldPassNotMatch .modal-header, #successMatch .modal-header{
+  height: 39px;
+  padding: 3px 14px;
+  justify-content: center;
+  background-color: #3c763d; 
+}
+p.heading.lead {
+  font-weight: bold;
+  color: #fff;
+}
+.user-man-btn{
+  margin-top: 10px;
+}
+.modal-header{
+  justify-content: center;
+  background-color: #d85c54;
+}
+.modal-btn {
+  border-radius: 0;
+  background-color: #333;
+}
+input.nospinner[type=number]::-webkit-inner-spin-button, 
+input.nospinner[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.modal-btn {
+  border-radius: 0;
+  color: #FFF;
+  background-color: #333 ;
+}
+.modal-cancel{
+  border-radius: 0;
+  color: #FFF;
+  background-color: #333;
+}
+.reset-pass-btn{
+  border-radius: 0;
+  color: #FFF;
+  background-color: #333;
+  border: 1px solid;
+  margin-right: 5px;
+  font-size:13px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+mat-form-field{
+  width: 100%;
+}
+}
+
+/** media query starts here **/
+
+@media(max-width: 767px){
+  .left-list{
+    width: 50%;
+    z-index: 100;
+    padding-top: 40px;
+  }
+}
+@media(max-width: 480px){
+  .user-cont{
+    margin-left: 25px;
+  }
+  
+}
+@media(max-width: 360px){
+  .user-cont{
+    margin-left: 20px;
+    margin-top: 76px;
+  }
+  
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "sitamarhi": [
+            {
+                "image" : "assets/stunted_icon.png",
+                "value": 57.3,
+                "name": "Children under 5 years who are stunted (height-for-age)",
+                "src": "NFHS-4",
+                "tp": "2015-2016"
+            },
+            {
+                "image" : "assets/underweight_icon.png",
+                "value": 47.7,
+                "name": "Children under 5 years who are underweight (weight-for-age)",
+                "src": "NFHS-4",
+                "tp": "2015-2016"
+            },
+            {
+                "image" : "assets/wasted_icon.png",
+                "value": 15.8,
+                "name": "Children under 5 years who are wasted (weight-for-height)",
+                "src": "NFHS-4",
+                "tp": "2015-2016"
+            },
+            {
+                "image" : "assets/anaemia_icon.png",
+                "value": 69.0,
+                "name": "Percentage of children 6-59 months having any (<11.0 g/dl) anaemia",
+                "src": "NFHS-4",
+                "tp": "2015-2016"
+            }
+        ]     
+
+    },
+    {
+        "gaya": [
+            {
+                "image" : "assets/stunted_icon.png",
+                "value": 52.9,
+                "name": "Children under 5 years who are stunted (height-for-age)",
+                "src": "NFHS-4",
+                "tp": "2015-2016"
+            },
+            {
+                "image" : "assets/underweight_icon.png",
+                "value": 53.1,
+                "name": "Children under 5 years who are underweight (weight-for-age)",
+                "src": "NFHS-4",
+                "tp": "2015-2016"
+            },
+            {
+                "image" : "assets/wasted_icon.png",
+                "value": 25.6,
+                "name": "Children under 5 years who are wasted (weight-for-height)",
+                "src": "NFHS-4",
+                "tp": "2015-2016"
+            },
+            {
+                "image" : "assets/anaemia_icon.png",
+                "value": 59.0,
+                "name": "Percentage of children 6-59 months having any (<11.0 g/dl) anaemia",
+                "src": "NFHS-4",
+                "tp": "2015-2016"
+            }
+        ]    
+    }
+
+]

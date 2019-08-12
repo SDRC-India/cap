@@ -1,0 +1,69 @@
+
+ .cap-dashboard-title{
+   margin-top: 5px;
+   color: #d85c54;
+ }
+ .cap-dashboard-title::after{
+     display: block;
+     content: '';
+     width: 100%;
+     height: 2px;
+     background: grey;
+     margin-top: 5px;
+ }
+.txt{
+   text-align: justify;
+}
+
+ p, .disclaimer{
+    margin-top: 20px;
+ }
+ .disclaimer{
+    margin-bottom: 20px;
+ }
+.cap-body-content{
+   margin-top: 80px;
+}
+
+
+/*//////////// Media query start from here //////////////*/
+
+@media screen and (max-width: 1200px){
+   .cap-body-content{
+      margin-top: 87px;
+   }
+}
+
+ @media screen and (max-width: 1024px){
+    .cap-body-content{
+       margin-top: 90px;
+    }
+ }
+ @media screen and (max-width: 608px){
+    .cap-body-content{
+      margin: 88px 0 165px 55px;
+   }
+}
+@media screen and (max-width: 560px){
+   .cap-body-content{
+      margin-left: 0;
+   }
+}
+@media screen and (max-width: 480px){
+   .cap-body-content{
+      margin-left: 25px;
+   }
+}
+@media screen and (max-width: 360px){
+   .cap-body-content{
+      margin-top: 75px;
+   }
+}
+
+/*///////////// code for fire fox only//////////*/
+
+@supports (-moz-appearance:none){
+   .cap-body-content{
+      padding-bottom: 181px;
+   }
+}

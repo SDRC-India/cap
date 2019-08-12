@@ -1,0 +1,33 @@
+.btn-info {
+    background-color: #333;
+    margin-top: 32px !important;
+}
+
+.container-fluid {
+    padding-bottom: 483px !important;
+}
+.error-header {
+   
+    padding: 11px 17px 2px 3px !important;
+    background-color:#d85c54;
+    color: #fff;
+}
+.modal-footer {
+padding:0px;
+text-align: center;
+
+}
+.modal-btn{
+    background-color: #212529;
+    color: white;
+    margin: 5px 5px 5px 5px;
+}
+.success-header{
+    background-color:#3c763d;
+    color: #fff;
+    padding: 11px 17px 2px 3px !important;
+
+}
+.custom-footer{
+    margin-right: 6px;
+}

@@ -1,0 +1,228 @@
+{
+    "tableHead": [
+        {
+            "colspan": "1",
+            "rowspan": "1",
+            "value": ""
+        },
+        {
+            "colspan": "2",
+            "rowspan": "1",
+            "value": "% of villages with adequate, functional and safe drinking water supply",
+            "id": 19
+        },
+        {
+            "colspan": "2",
+            "rowspan": "1",
+            "value": "% of wards with adequate, functional and safe drinking water supply",
+            "id": 20
+        }
+    ],
+    "tableColumns": [
+        "Block",
+        "Value_1",
+        "Target_1",
+        "Value_2",
+        "Target_2"
+    ],
+    "tableData": [
+        {
+            "Block": "Bajpatti",
+            "tpId": 2,
+            "areaId": 30,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "60.4",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "72.7"
+        },
+        {
+            "Block": "Balsand",
+            "tpId": 2,
+            "areaId": 31,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "39.2",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "43.6"
+        },
+        {
+            "Block": "Bargania",
+            "tpId": 2,
+            "areaId": 32,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "53.9",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "47.7"
+        },
+        {
+            "Block": "Bathnaha",
+            "tpId": 2,
+            "areaId": 33,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "6.1",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "75.1"
+        },
+        {
+            "Block": "Bokhra",
+            "tpId": 2,
+            "areaId": 34,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "71.5",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "85.4"
+        },
+        {
+            "Block": "Chiraut",
+            "tpId": 2,
+            "areaId": 35,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "84.5",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "56.4"
+        },
+        {
+            "Block": "Dumra Rural",
+            "tpId": 2,
+            "areaId": 36,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "81.5",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "18.3"
+        },
+        {
+            "Block": "Dumra Sadar",
+            "tpId": 2,
+            "areaId": 37,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "25.1",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "11.7"
+        },
+        {
+            "Block": "Majargang",
+            "tpId": 2,
+            "areaId": 38,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "5.5",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "11.4"
+        },
+        {
+            "Block": "Nanpur",
+            "tpId": 2,
+            "areaId": 39,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "97.1",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "63.4"
+        },
+        {
+            "Block": "Parihar",
+            "tpId": 2,
+            "areaId": 40,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "100.5",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "49.2"
+        },
+        {
+            "Block": "Parsauni",
+            "tpId": 2,
+            "areaId": 41,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "16.6",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "56.3"
+        },
+        {
+            "Block": "Pupri",
+            "tpId": 2,
+            "areaId": 42,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "64.2",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "85.4"
+        },
+        {
+            "Block": "Riga",
+            "tpId": 2,
+            "areaId": 43,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "79.7",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "49.3"
+        },
+        {
+            "Block": "Runisaidpur",
+            "tpId": 2,
+            "areaId": 44,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "90.5",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "85.7"
+        },
+        {
+            "Block": "Sonbarsha",
+            "tpId": 2,
+            "areaId": 45,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "21.8",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "51.8"
+        },
+        {
+            "Block": "Suppi",
+            "tpId": 2,
+            "areaId": 46,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "14.4",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "14.7"
+        },
+        {
+            "Block": "Sursand",
+            "tpId": 2,
+            "areaId": 47,
+            "indicatorId_1": 19,
+            "Value_1": "",
+            "Target_1": "67.7",
+            "indicatorId_2": 20,
+            "Value_2": "",
+            "Target_2": "53.3"
+        }
+    ]
+}

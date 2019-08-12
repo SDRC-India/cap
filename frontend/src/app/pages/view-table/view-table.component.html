@@ -1,0 +1,32 @@
+<div class="container view-section" *ngIf="service.showMainContent">
+  <div class="col-md-12 back" >
+    <i class="material-icons back-arrow" (click)="showHide()"> arrow_back </i><span (click)="showHide()" class="back-title">Back</span>
+  </div>
+  <div class="container dropdown-section">
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res"  >
+      <mat-form-field >
+          <mat-label class="label-text">Select Time Period</mat-label>
+          <mat-select [(ngModel)]="selectedTimeperiod">
+            <mat-option *ngFor="let tp of cardTimePeriodList" [value]="tp.tpName" (onSelectionChange)="selectTimeperiod(tp)">
+              {{tp.tpName}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+  </div>
+
+<div class="container">
+    <div class="col-md-12">
+        <h5 class="indicator">Indicator Name: {{service.selectedIndicatorName}}</h5> 
+    </div>
+</div>
+    
+  <div class="col-md-12 table-view">
+      <sdrc-table [id]="'tab2'"
+      [rowData]="tableData.tableData" [columnData]="tableData.tableColumns" [maxTableHeight]="'600px'" [sorting]="true" [isPaginate]="false" 
+      [itemsPerPage]="5" [searchBox]="true" [downloadPdf]="true" >
+      </sdrc-table>
+  </div>
+
+</div>
+

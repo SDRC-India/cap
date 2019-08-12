@@ -1,0 +1,1805 @@
+{
+    "timePeriodTypeModels": [
+        {
+            "id": 1,
+            "timeperiodType": "Monthly",
+            "selectionAvalaible": false,
+            "timePeriodModels": [
+                {
+                    "id": 17,
+                    "timePeriod": "April-2019",
+                    "startDate": "01-04-2019",
+                    "endDate": "30-04-2019",
+                    "financialYearId": 2
+                },
+                {
+                    "id": 12,
+                    "timePeriod": "March-2019",
+                    "startDate": "01-03-2019",
+                    "endDate": "31-03-2019",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 11,
+                    "timePeriod": "February-2019",
+                    "startDate": "01-02-2019",
+                    "endDate": "28-02-2019",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 10,
+                    "timePeriod": "January-2019",
+                    "startDate": "01-01-2019",
+                    "endDate": "31-01-2019",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 9,
+                    "timePeriod": "December-2018",
+                    "startDate": "01-12-2018",
+                    "endDate": "31-12-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 8,
+                    "timePeriod": "November-2018",
+                    "startDate": "01-11-2018",
+                    "endDate": "30-11-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 7,
+                    "timePeriod": "October-2018",
+                    "startDate": "01-10-2018",
+                    "endDate": "31-10-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 6,
+                    "timePeriod": "September-2018",
+                    "startDate": "01-09-2018",
+                    "endDate": "30-09-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 5,
+                    "timePeriod": "August-2018",
+                    "startDate": "01-08-2018",
+                    "endDate": "31-08-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 4,
+                    "timePeriod": "July-2018",
+                    "startDate": "01-07-2018",
+                    "endDate": "31-07-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 3,
+                    "timePeriod": "June-2018",
+                    "startDate": "01-06-2018",
+                    "endDate": "30-06-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 2,
+                    "timePeriod": "May-2018",
+                    "startDate": "01-05-2018",
+                    "endDate": "31-05-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 1,
+                    "timePeriod": "April-2018",
+                    "startDate": "01-04-2018",
+                    "endDate": "30-04-2018",
+                    "financialYearId": 1
+                }
+            ],
+            "preodicity": 1
+        },
+        {
+            "id": 2,
+            "timeperiodType": "Quarterly",
+            "selectionAvalaible": false,
+            "timePeriodModels": [
+                {
+                    "id": 16,
+                    "timePeriod": "Q4 (Jan 2019 - Mar 2019) ",
+                    "startDate": "01-01-2019",
+                    "endDate": "31-03-2019",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 15,
+                    "timePeriod": "Q3 (Oct 2018 - Dec 2018) ",
+                    "startDate": "01-10-2018",
+                    "endDate": "31-12-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 14,
+                    "timePeriod": "Q2 (Jul 2018 - Sep 2018) ",
+                    "startDate": "01-07-2018",
+                    "endDate": "30-09-2018",
+                    "financialYearId": 1
+                },
+                {
+                    "id": 13,
+                    "timePeriod": "Q1 (Apr 2018 - Jun 2018) ",
+                    "startDate": "01-04-2018",
+                    "endDate": "30-06-2018",
+                    "financialYearId": 1
+                }
+            ],
+            "preodicity": 2
+        }
+    ],
+    "financialYears": [
+        {
+            "financialYearId": 1,
+            "startDate": "2018-04-01",
+            "endDate": "2019-03-31",
+            "financialYearName": "2018-2019"
+        },
+        {
+            "financialYearId": 2,
+            "startDate": "2019-04-01",
+            "endDate": "2020-03-31",
+            "financialYearName": "2019-2020"
+        }
+    ],
+    "dashboardSectorModels": [
+        {
+            "sectorId": 1,
+            "sectorName": "Maternal Health",
+            "indicatorModels": [
+                {
+                    "id": 1,
+                    "indicatorName": "Pregnant women registered within 1st trimester (within 12 weeks)"
+                },
+                {
+                    "id": 2,
+                    "indicatorName": "Pregnant women given 180 Iron Folic Acid (IFA) tablets"
+                },
+                {
+                    "id": 3,
+                    "indicatorName": "Pregnant women given 360 Calcium tablets"
+                },
+                {
+                    "id": 4,
+                    "indicatorName": "Pregnant women given one Albendazole tablet after 1st trimester"
+                },
+                {
+                    "id": 5,
+                    "indicatorName": "Pregnant women received 4 or more ANC check ups"
+                },
+                {
+                    "id": 7,
+                    "indicatorName": "Pregnant women having severe anaemia (Hb<7) treated"
+                },
+                {
+                    "id": 8,
+                    "indicatorName": "Institutional Deliveries conducted (Including C-Sections)"
+                },
+                {
+                    "id": 9,
+                    "indicatorName": "Mothers provided full course of 180 IFA tablets after delivery"
+                },
+                {
+                    "id": 10,
+                    "indicatorName": "Mothers provided 360 Calcium tablets after delivery"
+                }
+            ]
+        },
+        {
+            "sectorId": 2,
+            "sectorName": "Child Health",
+            "indicatorModels": [
+                {
+                    "id": 13,
+                    "indicatorName": "Newborns breast fed within 1 hour of birth "
+                },
+                {
+                    "id": 14,
+                    "indicatorName": "Children aged between 9 and 11 months fully immunized"
+                },
+                {
+                    "id": 15,
+                    "indicatorName": "Infants provided with Vitamin A Dose - 1"
+                },
+                {
+                    "id": 16,
+                    "indicatorName": "Children (6-59 months) provided 8-10 doses (1ml) of IFA syrup (Bi weekly)"
+                }
+            ]
+        },
+        {
+            "sectorId": 3,
+            "sectorName": "Adolescent Health",
+            "indicatorModels": [
+                {
+                    "id": 17,
+                    "indicatorName": "Girls (6th -12th class) provided 4 IFA tablets in schools"
+                },
+                {
+                    "id": 18,
+                    "indicatorName": "Boys (6th -12th class) provided 4 IFA tablets in schools"
+                },
+                {
+                    "id": 19,
+                    "indicatorName": "Girls (6th -12th class) provided albendazole in schools"
+                },
+                {
+                    "id": 20,
+                    "indicatorName": "Boys (6th -12th class) provided albendazole in schools"
+                },
+                {
+                    "id": 21,
+                    "indicatorName": "Out of school adolscent girls (10-19 years) provided 4 IFA tablets at Anganwadi Centres"
+                },
+                {
+                    "id": 22,
+                    "indicatorName": "Out of school adolscent girls (10-19 years) provided albendazole at Anganwadi Centres"
+                }
+            ]
+        }
+    ],
+    "areaModels": [
+        {
+            "areaId": 64,
+            "areaName": "Amrapara",
+            "areaLevelId": 4,
+            "parentAreaId": 62,
+            "areaCode": "IND020008002"
+        },
+        {
+            "areaId": 159,
+            "areaName": "Angara",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019005"
+        },
+        {
+            "areaId": 177,
+            "areaName": "Arki",
+            "areaLevelId": 4,
+            "parentAreaId": 171,
+            "areaCode": "IND020020006"
+        },
+        {
+            "areaId": 72,
+            "areaName": "Baghmara",
+            "areaLevelId": 4,
+            "parentAreaId": 69,
+            "areaCode": "IND020009004"
+        },
+        {
+            "areaId": 34,
+            "areaName": "Bagodar",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004010"
+        },
+        {
+            "areaId": 102,
+            "areaName": "Baharagoda",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012011"
+        },
+        {
+            "areaId": 76,
+            "areaName": "Baliapur",
+            "areaLevelId": 4,
+            "parentAreaId": 69,
+            "areaCode": "IND020009008"
+        },
+        {
+            "areaId": 121,
+            "areaName": "Balumath",
+            "areaLevelId": 4,
+            "parentAreaId": 115,
+            "areaCode": "IND020014006"
+        },
+        {
+            "areaId": 200,
+            "areaName": "Bandgaon",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023003"
+        },
+        {
+            "areaId": 197,
+            "areaName": "Bano",
+            "areaLevelId": 4,
+            "parentAreaId": 190,
+            "areaCode": "IND020022010"
+        },
+        {
+            "areaId": 213,
+            "areaName": "Barajamda",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023019"
+        },
+        {
+            "areaId": 61,
+            "areaName": "Barharwa",
+            "areaLevelId": 4,
+            "parentAreaId": 54,
+            "areaCode": "IND020007009"
+        },
+        {
+            "areaId": 57,
+            "areaName": "Barhet",
+            "areaLevelId": 4,
+            "parentAreaId": 54,
+            "areaCode": "IND020007004"
+        },
+        {
+            "areaId": 125,
+            "areaName": "Barhi",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015002"
+        },
+        {
+            "areaId": 132,
+            "areaName": "Barkagaon",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015014"
+        },
+        {
+            "areaId": 127,
+            "areaName": "Barkatha",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015007"
+        },
+        {
+            "areaId": 117,
+            "areaName": "Barwadih",
+            "areaLevelId": 4,
+            "parentAreaId": 115,
+            "areaCode": "IND020014002"
+        },
+        {
+            "areaId": 184,
+            "areaName": "Basia",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021006"
+        },
+        {
+            "areaId": 30,
+            "areaName": "Bengabad",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004006"
+        },
+        {
+            "areaId": 80,
+            "areaName": "Bermo",
+            "areaLevelId": 4,
+            "parentAreaId": 78,
+            "areaCode": "IND020010003"
+        },
+        {
+            "areaId": 166,
+            "areaName": "Bero",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019014"
+        },
+        {
+            "areaId": 11,
+            "areaName": "Bhandaria",
+            "areaLevelId": 4,
+            "parentAreaId": 3,
+            "areaCode": "IND020001019"
+        },
+        {
+            "areaId": 92,
+            "areaName": "Bhandra",
+            "areaLevelId": 4,
+            "parentAreaId": 87,
+            "areaCode": "IND020011007"
+        },
+        {
+            "areaId": 182,
+            "areaName": "Bharno",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021004"
+        },
+        {
+            "areaId": 4,
+            "areaName": "Bhawnathpur",
+            "areaLevelId": 4,
+            "parentAreaId": 3,
+            "areaCode": "IND020001002"
+        },
+        {
+            "areaId": 33,
+            "areaName": "Birni",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004009"
+        },
+        {
+            "areaId": 108,
+            "areaName": "Bishrampur",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013010"
+        },
+        {
+            "areaId": 179,
+            "areaName": "Bishunpur",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021001"
+        },
+        {
+            "areaId": 128,
+            "areaName": "Bisnugarh",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015009"
+        },
+        {
+            "areaId": 48,
+            "areaName": "Boarijore",
+            "areaLevelId": 4,
+            "parentAreaId": 46,
+            "areaCode": "IND020006003"
+        },
+        {
+            "areaId": 78,
+            "areaName": "Bokaro",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020010"
+        },
+        {
+            "areaId": 193,
+            "areaName": "Bolba",
+            "areaLevelId": 4,
+            "parentAreaId": 190,
+            "areaCode": "IND020022005"
+        },
+        {
+            "areaId": 56,
+            "areaName": "Borio",
+            "areaLevelId": 4,
+            "parentAreaId": 54,
+            "areaCode": "IND020007003"
+        },
+        {
+            "areaId": 168,
+            "areaName": "Bundu",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019017"
+        },
+        {
+            "areaId": 156,
+            "areaName": "Burmo",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019001"
+        },
+        {
+            "areaId": 206,
+            "areaName": "Chaibasa Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023012"
+        },
+        {
+            "areaId": 186,
+            "areaName": "Chainpur",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021008"
+        },
+        {
+            "areaId": 114,
+            "areaName": "Chainpur",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013020"
+        },
+        {
+            "areaId": 201,
+            "areaName": "Chakradharpur",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023004"
+        },
+        {
+            "areaId": 101,
+            "areaName": "Chakulia",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012010"
+        },
+        {
+            "areaId": 86,
+            "areaName": "Chandankiyari",
+            "areaLevelId": 4,
+            "parentAreaId": 78,
+            "areaCode": "IND020010009"
+        },
+        {
+            "areaId": 217,
+            "areaName": "Chandil",
+            "areaLevelId": 4,
+            "parentAreaId": 214,
+            "areaCode": "IND020024003"
+        },
+        {
+            "areaId": 122,
+            "areaName": "Chandwa",
+            "areaLevelId": 4,
+            "parentAreaId": 115,
+            "areaCode": "IND020014009"
+        },
+        {
+            "areaId": 165,
+            "areaName": "Chano",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019013"
+        },
+        {
+            "areaId": 85,
+            "areaName": "Chas",
+            "areaLevelId": 4,
+            "parentAreaId": 78,
+            "areaCode": "IND020010008"
+        },
+        {
+            "areaId": 12,
+            "areaName": "Chatra",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020002"
+        },
+        {
+            "areaId": 15,
+            "areaName": "Chatra Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 12,
+            "areaCode": "IND020002005"
+        },
+        {
+            "areaId": 107,
+            "areaName": "Chhatarpur",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013006"
+        },
+        {
+            "areaId": 124,
+            "areaName": "Chouparan",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015001"
+        },
+        {
+            "areaId": 133,
+            "areaName": "Churchu",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015015"
+        },
+        {
+            "areaId": 37,
+            "areaName": "Deoghar",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020005"
+        },
+        {
+            "areaId": 27,
+            "areaName": "Deori",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004003"
+        },
+        {
+            "areaId": 40,
+            "areaName": "Devipur",
+            "areaLevelId": 4,
+            "parentAreaId": 37,
+            "areaCode": "IND020005005"
+        },
+        {
+            "areaId": 100,
+            "areaName": "Dhalbhumgadh",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012008"
+        },
+        {
+            "areaId": 69,
+            "areaName": "Dhanbad",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020009"
+        },
+        {
+            "areaId": 74,
+            "areaName": "Dhanbad Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 69,
+            "areaCode": "IND020009006"
+        },
+        {
+            "areaId": 7,
+            "areaName": "Dhurki",
+            "areaLevelId": 4,
+            "parentAreaId": 3,
+            "areaCode": "IND020001010"
+        },
+        {
+            "areaId": 99,
+            "areaName": "Dumaria",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012007"
+        },
+        {
+            "areaId": 139,
+            "areaName": "Dumka",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020017"
+        },
+        {
+            "areaId": 147,
+            "areaName": "Dumka Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017008"
+        },
+        {
+            "areaId": 35,
+            "areaName": "Dumri",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004012"
+        },
+        {
+            "areaId": 187,
+            "areaName": "Dumri",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021009"
+        },
+        {
+            "areaId": 220,
+            "areaName": "Gamharia",
+            "areaLevelId": 4,
+            "parentAreaId": 214,
+            "areaCode": "IND020024007"
+        },
+        {
+            "areaId": 31,
+            "areaName": "Gandey",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004007"
+        },
+        {
+            "areaId": 3,
+            "areaName": "Garhwa",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020001"
+        },
+        {
+            "areaId": 119,
+            "areaName": "Garu",
+            "areaLevelId": 4,
+            "parentAreaId": 115,
+            "areaCode": "IND020014004"
+        },
+        {
+            "areaId": 9,
+            "areaName": "Garwha Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 3,
+            "areaCode": "IND020001015"
+        },
+        {
+            "areaId": 25,
+            "areaName": "Gawan",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004001"
+        },
+        {
+            "areaId": 180,
+            "areaName": "Ghaghra",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021002"
+        },
+        {
+            "areaId": 96,
+            "areaName": "Ghatsila",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012004"
+        },
+        {
+            "areaId": 24,
+            "areaName": "Giridih",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020004"
+        },
+        {
+            "areaId": 32,
+            "areaName": "Giridih Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004008"
+        },
+        {
+            "areaId": 46,
+            "areaName": "Godda",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020006"
+        },
+        {
+            "areaId": 51,
+            "areaName": "Godda Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 46,
+            "areaCode": "IND020006007"
+        },
+        {
+            "areaId": 203,
+            "areaName": "Goilkera",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023006"
+        },
+        {
+            "areaId": 138,
+            "areaName": "Gola",
+            "areaLevelId": 4,
+            "parentAreaId": 134,
+            "areaCode": "IND020016006"
+        },
+        {
+            "areaId": 81,
+            "areaName": "Gomia",
+            "areaLevelId": 4,
+            "parentAreaId": 78,
+            "areaCode": "IND020010004"
+        },
+        {
+            "areaId": 143,
+            "areaName": "Gopikandar",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017004"
+        },
+        {
+            "areaId": 73,
+            "areaName": "Govindpur",
+            "areaLevelId": 4,
+            "parentAreaId": 69,
+            "areaCode": "IND020009005"
+        },
+        {
+            "areaId": 178,
+            "areaName": "Gumla",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020021"
+        },
+        {
+            "areaId": 185,
+            "areaName": "Gumla Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021007"
+        },
+        {
+            "areaId": 106,
+            "areaName": "Hariharganj",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013004"
+        },
+        {
+            "areaId": 123,
+            "areaName": "Hazaribagh",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020015"
+        },
+        {
+            "areaId": 129,
+            "areaName": "Hazaribagh Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015010"
+        },
+        {
+            "areaId": 65,
+            "areaName": "Hiranpur",
+            "areaLevelId": 4,
+            "parentAreaId": 62,
+            "areaCode": "IND020008003"
+        },
+        {
+            "areaId": 13,
+            "areaName": "Hunterganj",
+            "areaLevelId": 4,
+            "parentAreaId": 12,
+            "areaCode": "IND020002001"
+        },
+        {
+            "areaId": 105,
+            "areaName": "Husainabad",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013001"
+        },
+        {
+            "areaId": 218,
+            "areaName": "Ichagarh",
+            "areaLevelId": 4,
+            "parentAreaId": 214,
+            "areaCode": "IND020024004"
+        },
+        {
+            "areaId": 126,
+            "areaName": "Ichak",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015004"
+        },
+        {
+            "areaId": 1,
+            "areaName": "India",
+            "areaLevelId": 1,
+            "parentAreaId": 0,
+            "areaCode": "IND"
+        },
+        {
+            "areaId": 16,
+            "areaName": "Itkhori",
+            "areaLevelId": 4,
+            "parentAreaId": 12,
+            "areaCode": "IND020002007"
+        },
+        {
+            "areaId": 210,
+            "areaName": "Jaganathpur",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023016"
+        },
+        {
+            "areaId": 22,
+            "areaName": "Jainagar",
+            "areaLevelId": 4,
+            "parentAreaId": 19,
+            "areaCode": "IND020003004"
+        },
+        {
+            "areaId": 196,
+            "areaName": "Jaldega",
+            "areaLevelId": 4,
+            "parentAreaId": 190,
+            "areaCode": "IND020022008"
+        },
+        {
+            "areaId": 148,
+            "areaName": "Jama",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017009"
+        },
+        {
+            "areaId": 150,
+            "areaName": "Jamtara",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020018"
+        },
+        {
+            "areaId": 152,
+            "areaName": "Jamtara",
+            "areaLevelId": 4,
+            "parentAreaId": 150,
+            "areaCode": "IND020018003"
+        },
+        {
+            "areaId": 29,
+            "areaName": "Jamua",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004005"
+        },
+        {
+            "areaId": 84,
+            "areaName": "Jaridih",
+            "areaLevelId": 4,
+            "parentAreaId": 78,
+            "areaCode": "IND020010007"
+        },
+        {
+            "areaId": 141,
+            "areaName": "Jarmundi",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017002"
+        },
+        {
+            "areaId": 45,
+            "areaName": "Jasidih",
+            "areaLevelId": 4,
+            "parentAreaId": 37,
+            "areaCode": "IND020005011"
+        },
+        {
+            "areaId": 75,
+            "areaName": "Jharia cum Jorapokhar",
+            "areaLevelId": 4,
+            "parentAreaId": 69,
+            "areaCode": "IND020009007"
+        },
+        {
+            "areaId": 2,
+            "areaName": "Jharkhand",
+            "areaLevelId": 2,
+            "parentAreaId": 1,
+            "areaCode": "IND020"
+        },
+        {
+            "areaId": 209,
+            "areaName": "Jhinkpani",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023015"
+        },
+        {
+            "areaId": 95,
+            "areaName": "Jugalsalai Sah Golmuri",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012003"
+        },
+        {
+            "areaId": 183,
+            "areaName": "Kamdara",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021005"
+        },
+        {
+            "areaId": 157,
+            "areaName": "Kanke",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019003"
+        },
+        {
+            "areaId": 42,
+            "areaName": "Karon",
+            "areaLevelId": 4,
+            "parentAreaId": 37,
+            "areaCode": "IND020005008"
+        },
+        {
+            "areaId": 172,
+            "areaName": "Karra",
+            "areaLevelId": 4,
+            "parentAreaId": 171,
+            "areaCode": "IND020020001"
+        },
+        {
+            "areaId": 83,
+            "areaName": "Kasmar",
+            "areaLevelId": 4,
+            "parentAreaId": 78,
+            "areaCode": "IND020010006"
+        },
+        {
+            "areaId": 144,
+            "areaName": "Kathikund",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017005"
+        },
+        {
+            "areaId": 130,
+            "areaName": "Katkamsandi",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015011"
+        },
+        {
+            "areaId": 131,
+            "areaName": "Keredari",
+            "areaLevelId": 4,
+            "parentAreaId": 123,
+            "areaCode": "IND020015013"
+        },
+        {
+            "areaId": 216,
+            "areaName": "Kharsawan",
+            "areaLevelId": 4,
+            "parentAreaId": 214,
+            "areaCode": "IND020024002"
+        },
+        {
+            "areaId": 171,
+            "areaName": "Khunti",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020020"
+        },
+        {
+            "areaId": 176,
+            "areaName": "Khunti Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 171,
+            "areaCode": "IND020020005"
+        },
+        {
+            "areaId": 202,
+            "areaName": "Khuntpani",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023005"
+        },
+        {
+            "areaId": 88,
+            "areaName": "Kisko",
+            "areaLevelId": 4,
+            "parentAreaId": 87,
+            "areaCode": "IND020011001"
+        },
+        {
+            "areaId": 19,
+            "areaName": "Kodarma",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020003"
+        },
+        {
+            "areaId": 21,
+            "areaName": "Kodarma Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 19,
+            "areaCode": "IND020003002"
+        },
+        {
+            "areaId": 195,
+            "areaName": "Kolebira",
+            "areaLevelId": 4,
+            "parentAreaId": 190,
+            "areaCode": "IND020022007"
+        },
+        {
+            "areaId": 215,
+            "areaName": "Kuchai",
+            "areaLevelId": 4,
+            "parentAreaId": 214,
+            "areaCode": "IND020024001"
+        },
+        {
+            "areaId": 211,
+            "areaName": "Kumardungi",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023017"
+        },
+        {
+            "areaId": 154,
+            "areaName": "Kundhit",
+            "areaLevelId": 4,
+            "parentAreaId": 150,
+            "areaCode": "IND020018006"
+        },
+        {
+            "areaId": 192,
+            "areaName": "Kurdeg",
+            "areaLevelId": 4,
+            "parentAreaId": 190,
+            "areaCode": "IND020022003"
+        },
+        {
+            "areaId": 89,
+            "areaName": "Kuru",
+            "areaLevelId": 4,
+            "parentAreaId": 87,
+            "areaCode": "IND020011003"
+        },
+        {
+            "areaId": 167,
+            "areaName": "Lapung",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019016"
+        },
+        {
+            "areaId": 120,
+            "areaName": "Latehar",
+            "areaLevelId": 4,
+            "parentAreaId": 115,
+            "areaCode": "IND020014005"
+        },
+        {
+            "areaId": 115,
+            "areaName": "Latehar",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020014"
+        },
+        {
+            "areaId": 112,
+            "areaName": "Lesliganj",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013018"
+        },
+        {
+            "areaId": 63,
+            "areaName": "Littipara",
+            "areaLevelId": 4,
+            "parentAreaId": 62,
+            "areaCode": "IND020008001"
+        },
+        {
+            "areaId": 87,
+            "areaName": "Lohardaga",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020011"
+        },
+        {
+            "areaId": 90,
+            "areaName": "Lohardaga Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 87,
+            "areaCode": "IND020011005"
+        },
+        {
+            "areaId": 41,
+            "areaName": "Madhupur",
+            "areaLevelId": 4,
+            "parentAreaId": 37,
+            "areaCode": "IND020005006"
+        },
+        {
+            "areaId": 49,
+            "areaName": "Mahagama",
+            "areaLevelId": 4,
+            "parentAreaId": 46,
+            "areaCode": "IND020006004"
+        },
+        {
+            "areaId": 67,
+            "areaName": "Maheshpur",
+            "areaLevelId": 4,
+            "parentAreaId": 62,
+            "areaCode": "IND020008005"
+        },
+        {
+            "areaId": 118,
+            "areaName": "Mahuadar",
+            "areaLevelId": 4,
+            "parentAreaId": 115,
+            "areaCode": "IND020014003"
+        },
+        {
+            "areaId": 212,
+            "areaName": "Majhgaon",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023018"
+        },
+        {
+            "areaId": 5,
+            "areaName": "Majhiaon",
+            "areaLevelId": 4,
+            "parentAreaId": 3,
+            "areaCode": "IND020001005"
+        },
+        {
+            "areaId": 110,
+            "areaName": "Manatu",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013014"
+        },
+        {
+            "areaId": 164,
+            "areaName": "Mandar",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019012"
+        },
+        {
+            "areaId": 136,
+            "areaName": "Mandu",
+            "areaLevelId": 4,
+            "parentAreaId": 134,
+            "areaCode": "IND020016002"
+        },
+        {
+            "areaId": 116,
+            "areaName": "Manika",
+            "areaLevelId": 4,
+            "parentAreaId": 115,
+            "areaCode": "IND020014001"
+        },
+        {
+            "areaId": 208,
+            "areaName": "Manjhari",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023014"
+        },
+        {
+            "areaId": 204,
+            "areaName": "Manoharpur",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023008"
+        },
+        {
+            "areaId": 23,
+            "areaName": "Markacho",
+            "areaLevelId": 4,
+            "parentAreaId": 19,
+            "areaCode": "IND020003006"
+        },
+        {
+            "areaId": 149,
+            "areaName": "Masalia",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017010"
+        },
+        {
+            "areaId": 113,
+            "areaName": "Medininagar Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013019"
+        },
+        {
+            "areaId": 47,
+            "areaName": "Meharma",
+            "areaLevelId": 4,
+            "parentAreaId": 46,
+            "areaCode": "IND020006001"
+        },
+        {
+            "areaId": 8,
+            "areaName": "Meral",
+            "areaLevelId": 4,
+            "parentAreaId": 3,
+            "areaCode": "IND020001014"
+        },
+        {
+            "areaId": 38,
+            "areaName": "Mohanpur",
+            "areaLevelId": 4,
+            "parentAreaId": 37,
+            "areaCode": "IND020005002"
+        },
+        {
+            "areaId": 175,
+            "areaName": "Murhu",
+            "areaLevelId": 4,
+            "parentAreaId": 171,
+            "areaCode": "IND020020004"
+        },
+        {
+            "areaId": 98,
+            "areaName": "Musabani",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012006"
+        },
+        {
+            "areaId": 6,
+            "areaName": "Nagar Untari",
+            "areaLevelId": 4,
+            "parentAreaId": 3,
+            "areaCode": "IND020001009"
+        },
+        {
+            "areaId": 153,
+            "areaName": "Nala",
+            "areaLevelId": 4,
+            "parentAreaId": 150,
+            "areaCode": "IND020018004"
+        },
+        {
+            "areaId": 162,
+            "areaName": "Namkom",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019009"
+        },
+        {
+            "areaId": 151,
+            "areaName": "Narayanpur",
+            "areaLevelId": 4,
+            "parentAreaId": 150,
+            "areaCode": "IND020018001"
+        },
+        {
+            "areaId": 79,
+            "areaName": "Nawadih",
+            "areaLevelId": 4,
+            "parentAreaId": 78,
+            "areaCode": "IND020010001"
+        },
+        {
+            "areaId": 219,
+            "areaName": "Nimdih",
+            "areaLevelId": 4,
+            "parentAreaId": 214,
+            "areaCode": "IND020024006"
+        },
+        {
+            "areaId": 77,
+            "areaName": "Nirsa",
+            "areaLevelId": 4,
+            "parentAreaId": 69,
+            "areaCode": "IND020009009"
+        },
+        {
+            "areaId": 158,
+            "areaName": "Ormanjhi",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019004"
+        },
+        {
+            "areaId": 62,
+            "areaName": "Pakur",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020008"
+        },
+        {
+            "areaId": 66,
+            "areaName": "Pakur Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 62,
+            "areaCode": "IND020008004"
+        },
+        {
+            "areaId": 68,
+            "areaName": "Pakuria",
+            "areaLevelId": 4,
+            "parentAreaId": 62,
+            "areaCode": "IND020008006"
+        },
+        {
+            "areaId": 44,
+            "areaName": "Palajori",
+            "areaLevelId": 4,
+            "parentAreaId": 37,
+            "areaCode": "IND020005010"
+        },
+        {
+            "areaId": 104,
+            "areaName": "Palamu",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020013"
+        },
+        {
+            "areaId": 189,
+            "areaName": "Palkot",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021012"
+        },
+        {
+            "areaId": 111,
+            "areaName": "Panki",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013016"
+        },
+        {
+            "areaId": 198,
+            "areaName": "Pashchimi Singhbhum",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020023"
+        },
+        {
+            "areaId": 109,
+            "areaName": "Patan",
+            "areaLevelId": 4,
+            "parentAreaId": 104,
+            "areaCode": "IND020013012"
+        },
+        {
+            "areaId": 50,
+            "areaName": "Pathargama",
+            "areaLevelId": 4,
+            "parentAreaId": 46,
+            "areaCode": "IND020006005"
+        },
+        {
+            "areaId": 60,
+            "areaName": "Pathna",
+            "areaLevelId": 4,
+            "parentAreaId": 54,
+            "areaCode": "IND020007008"
+        },
+        {
+            "areaId": 94,
+            "areaName": "Patmada",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012001"
+        },
+        {
+            "areaId": 135,
+            "areaName": "Patratu",
+            "areaLevelId": 4,
+            "parentAreaId": 134,
+            "areaCode": "IND020016001"
+        },
+        {
+            "areaId": 82,
+            "areaName": "Peterwar",
+            "areaLevelId": 4,
+            "parentAreaId": 78,
+            "areaCode": "IND020010005"
+        },
+        {
+            "areaId": 36,
+            "areaName": "Pirtand",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004013"
+        },
+        {
+            "areaId": 52,
+            "areaName": "Poraiyahat",
+            "areaLevelId": 4,
+            "parentAreaId": 46,
+            "areaCode": "IND020006008"
+        },
+        {
+            "areaId": 97,
+            "areaName": "Potka",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012005"
+        },
+        {
+            "areaId": 14,
+            "areaName": "Pratappur",
+            "areaLevelId": 4,
+            "parentAreaId": 12,
+            "areaCode": "IND020002002"
+        },
+        {
+            "areaId": 93,
+            "areaName": "Purbi Singhbhum",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020012"
+        },
+        {
+            "areaId": 188,
+            "areaName": "Raidih",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021011"
+        },
+        {
+            "areaId": 28,
+            "areaName": "RajDhanwar",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004004"
+        },
+        {
+            "areaId": 59,
+            "areaName": "Rajmahal",
+            "areaLevelId": 4,
+            "parentAreaId": 54,
+            "areaCode": "IND020007006"
+        },
+        {
+            "areaId": 222,
+            "areaName": "Rajnagar",
+            "areaLevelId": 4,
+            "parentAreaId": 214,
+            "areaCode": "IND020024009"
+        },
+        {
+            "areaId": 142,
+            "areaName": "Ramgadh",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017003"
+        },
+        {
+            "areaId": 134,
+            "areaName": "Ramgarh",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020016"
+        },
+        {
+            "areaId": 137,
+            "areaName": "Ramgarh",
+            "areaLevelId": 4,
+            "parentAreaId": 134,
+            "areaCode": "IND020016003"
+        },
+        {
+            "areaId": 155,
+            "areaName": "Ranchi",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020019"
+        },
+        {
+            "areaId": 170,
+            "areaName": "Ranchi Urban",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019019"
+        },
+        {
+            "areaId": 146,
+            "areaName": "Raneshwar",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017007"
+        },
+        {
+            "areaId": 174,
+            "areaName": "Rania",
+            "areaLevelId": 4,
+            "parentAreaId": 171,
+            "areaCode": "IND020020003"
+        },
+        {
+            "areaId": 10,
+            "areaName": "Ranka",
+            "areaLevelId": 4,
+            "parentAreaId": 3,
+            "areaCode": "IND020001017"
+        },
+        {
+            "areaId": 163,
+            "areaName": "Ratu",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019010"
+        },
+        {
+            "areaId": 54,
+            "areaName": "Sahibganj",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020007"
+        },
+        {
+            "areaId": 55,
+            "areaName": "Sahibganj Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 54,
+            "areaCode": "IND020007001"
+        },
+        {
+            "areaId": 214,
+            "areaName": "Saraikela",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020024"
+        },
+        {
+            "areaId": 221,
+            "areaName": "Saraikela Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 214,
+            "areaCode": "IND020024008"
+        },
+        {
+            "areaId": 140,
+            "areaName": "Saraiyahat",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017001"
+        },
+        {
+            "areaId": 43,
+            "areaName": "Sarath",
+            "areaLevelId": 4,
+            "parentAreaId": 37,
+            "areaCode": "IND020005009"
+        },
+        {
+            "areaId": 39,
+            "areaName": "Sarwan",
+            "areaLevelId": 4,
+            "parentAreaId": 37,
+            "areaCode": "IND020005003"
+        },
+        {
+            "areaId": 20,
+            "areaName": "Satgama",
+            "areaLevelId": 4,
+            "parentAreaId": 19,
+            "areaCode": "IND020003001"
+        },
+        {
+            "areaId": 91,
+            "areaName": "Senha",
+            "areaLevelId": 4,
+            "parentAreaId": 87,
+            "areaCode": "IND020011006"
+        },
+        {
+            "areaId": 145,
+            "areaName": "Shikaripada",
+            "areaLevelId": 4,
+            "parentAreaId": 139,
+            "areaCode": "IND020017006"
+        },
+        {
+            "areaId": 160,
+            "areaName": "Silli",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019007"
+        },
+        {
+            "areaId": 17,
+            "areaName": "Simaria",
+            "areaLevelId": 4,
+            "parentAreaId": 12,
+            "areaCode": "IND020002011"
+        },
+        {
+            "areaId": 190,
+            "areaName": "Simdega",
+            "areaLevelId": 3,
+            "parentAreaId": 2,
+            "areaCode": "IND020022"
+        },
+        {
+            "areaId": 191,
+            "areaName": "Simdega Sadar",
+            "areaLevelId": 4,
+            "parentAreaId": 190,
+            "areaCode": "IND020022001"
+        },
+        {
+            "areaId": 181,
+            "areaName": "Sisai",
+            "areaLevelId": 4,
+            "parentAreaId": 178,
+            "areaCode": "IND020021003"
+        },
+        {
+            "areaId": 161,
+            "areaName": "Sonahatu",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019008"
+        },
+        {
+            "areaId": 199,
+            "areaName": "Sonua",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023001"
+        },
+        {
+            "areaId": 53,
+            "areaName": "Sunderpahari",
+            "areaLevelId": 4,
+            "parentAreaId": 46,
+            "areaCode": "IND020006009"
+        },
+        {
+            "areaId": 58,
+            "areaName": "Taljhari",
+            "areaLevelId": 4,
+            "parentAreaId": 54,
+            "areaCode": "IND020007005"
+        },
+        {
+            "areaId": 169,
+            "areaName": "Tamar",
+            "areaLevelId": 4,
+            "parentAreaId": 155,
+            "areaCode": "IND020019018"
+        },
+        {
+            "areaId": 18,
+            "areaName": "Tandwa",
+            "areaLevelId": 4,
+            "parentAreaId": 12,
+            "areaCode": "IND020002012"
+        },
+        {
+            "areaId": 207,
+            "areaName": "Tantnagar",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023013"
+        },
+        {
+            "areaId": 194,
+            "areaName": "Thetaitanger",
+            "areaLevelId": 4,
+            "parentAreaId": 190,
+            "areaCode": "IND020022006"
+        },
+        {
+            "areaId": 26,
+            "areaName": "Tisri",
+            "areaLevelId": 4,
+            "parentAreaId": 24,
+            "areaCode": "IND020004002"
+        },
+        {
+            "areaId": 205,
+            "areaName": "Tonto",
+            "areaLevelId": 4,
+            "parentAreaId": 198,
+            "areaCode": "IND020023010"
+        },
+        {
+            "areaId": 71,
+            "areaName": "Topchachi",
+            "areaLevelId": 4,
+            "parentAreaId": 69,
+            "areaCode": "IND020009003"
+        },
+        {
+            "areaId": 173,
+            "areaName": "Torpa",
+            "areaLevelId": 4,
+            "parentAreaId": 171,
+            "areaCode": "IND020020002"
+        },
+        {
+            "areaId": 70,
+            "areaName": "Tundi",
+            "areaLevelId": 4,
+            "parentAreaId": 69,
+            "areaCode": "IND020009001"
+        },
+        {
+            "areaId": 103,
+            "areaName": "Urban Jamshedpur",
+            "areaLevelId": 4,
+            "parentAreaId": 93,
+            "areaCode": "IND020012012"
+        }
+    ]
+}

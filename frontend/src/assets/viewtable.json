@@ -1,0 +1,166 @@
+{
+    "tableColumns": [
+        "block",
+        "value",
+        "index"
+    ],
+    "tableData": [
+        {
+            "block": "Bajpatti",
+            "tpId": 2,
+            "areaId": 30,
+            "indicatorId": 24,
+            "value": "56",
+            "css": "#ff8000",
+            "index": "95.5"
+          },
+          {
+            "block": "Balsand",
+            "tpId": 2,
+            "areaId": 31,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Bargania",
+            "tpId": 2,
+            "areaId": 32,
+            "indicatorId": 24,
+            "value": "5",
+            "css": "#d7191c",
+            "index": "8.5"
+          },
+          {
+            "block": "Bathnaha",
+            "tpId": 2,
+            "areaId": 33,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Bokhra",
+            "tpId": 2,
+            "areaId": 34,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Chiraut",
+            "tpId": 2,
+            "areaId": 35,
+            "indicatorId": 24,
+            "value": "56",
+            "css": "#ff8000",
+            "index": "95.5"
+          },
+          {
+            "block": "Dumra Rural",
+            "tpId": 2,
+            "areaId": 36,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Dumra Sadar",
+            "tpId": 2,
+            "areaId": 37,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Majargang",
+            "tpId": 2,
+            "areaId": 38,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Nanpur",
+            "tpId": 2,
+            "areaId": 39,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Parihar",
+            "tpId": 2,
+            "areaId": 40,
+            "indicatorId": 24,
+            "value": "56",
+            "css": "#ff8000",
+            "index": "95.5"
+          },
+          {
+            "block": "Parsauni",
+            "tpId": 2,
+            "areaId": 41,
+            "indicatorId": 24,
+            "value": "56",
+            "css": "#ff8000",
+            "index": "95.5"
+          },
+          {
+            "block": "Pupri",
+            "tpId": 2,
+            "areaId": 42,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Riga",
+            "tpId": 2,
+            "areaId": 43,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Runisaidpur",
+            "tpId": 2,
+            "areaId": 44,
+            "indicatorId": 24,
+            "value": "65",
+            "css": "#ff8000",
+            "index": "110.8"
+          },
+          {
+            "block": "Sonbarsha",
+            "tpId": 2,
+            "areaId": 45,
+            "indicatorId": 24,
+            "value": "56",
+            "css": "#ff8000",
+            "index": "95.5"
+          },
+          {
+            "block": "Suppi",
+            "tpId": 2,
+            "areaId": 46,
+            "indicatorId": 24,
+            "value": "56",
+            "css": "#ff8000",
+            "index": "95.5"
+          }
+       
+      
+      
+      
+    ]
+}

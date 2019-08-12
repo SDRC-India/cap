@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body{
+    background: #ffffff !important;
+    font-family: 'Questrial', sans-serif;
+  }
+  .mat-pseudo-checkbox-checked:after {
+    width: 10px !important;
+    height: 5px !important;
+}
+.webapp-pointer{
+  cursor: pointer;
+}
+button.btn-margin.mat-raised-button.mat-primary.ng-star-inserted {
+  background-color:#333 !important;
+  color: white;
+}
+.form-horizontal {
+  padding-top: 20px !important;
+}
+.mat-form-field-infix{
+  border-top: 1px solid #999;
+  border: 1px solid #999;
+  border-bottom: none;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+.mat-form-field.example-full-width.mat-form-field.ng-tns-c10-2.mat-primary.mat-form-field-type-mat-input.mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-hide-placeholder.ng-pristine.ng-valid.ng-touched{
+  margin-top: 15px;
+}
+.mat-tab-label-active{
+  background-color: white ;
+  color: #000;
+}
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #d85c54 !important;
+}
+.mat-form-field-appearance-legacy .mat-form-field-label {
+  color: #000000de !important;
+  padding-left: 6px;
+}
+.mat-radio-button#mat-radio-6 {
+  padding-left: 15px;
+}
+/* .cap-body-content{
+  margin-top: 100px;
+} */
+.under-construction{
+  text-align: center;
+}
+.mat-form-field-suffix {
+  border-right: 1px solid #999;
+  padding: 4px 0px 0 0;
+  border-top: 1px solid #999;
+  height: 30px;
+}
+.selection-fields .mat-form-field-suffix {
+  border-right: 1px solid #999;
+  padding: 5px 0px 0 0;
+  border-top: 1px solid #999;
+  height: 32px;
+}

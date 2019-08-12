@@ -1,0 +1,922 @@
+
+
+[
+    {
+      "block": "Parihar",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 40,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 40,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 40,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 40,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 40,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 40,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Majargang",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 38,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 38,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 38,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 38,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 38,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 38,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Dumra Sadar",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 37,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 37,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 37,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 37,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 37,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 37,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Parsauni",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 41,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 41,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 41,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 41,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 41,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 41,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Chiraut",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 35,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 35,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 35,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 35,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 35,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 35,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Sonbarsha",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 45,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 45,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 45,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 45,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 45,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 45,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Dumra Rural",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 36,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 36,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 36,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 36,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 36,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 36,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Bajpatti",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 30,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 30,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 30,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 30,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 30,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 30,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Suppi",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 46,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 46,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 46,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 46,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 46,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 46,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Bargania",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 32,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 32,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 32,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 32,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 32,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 32,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Nanpur",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 39,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 39,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 39,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 39,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 39,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 39,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Bathnaha",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 33,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 33,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 33,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 33,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 33,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 33,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Riga",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 43,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 43,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 43,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 43,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 43,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 43,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Bokhra",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 34,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 34,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 34,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 34,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 34,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 34,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Runisaidpur",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 44,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 44,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 44,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 44,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 44,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 44,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Balsand",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 31,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 31,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 31,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 31,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 31,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 31,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Sursand",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 47,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 47,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 47,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 47,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 47,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 47,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    },
+    {
+      "block": "Pupri",
+      "% of anganwadi centres with adequate, functional and safe drinking water supply": {
+        "indicatorId": 18,
+        "areaId": 42,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of villages with adequate, functional and safe drinking water supply": {
+        "indicatorId": 19,
+        "areaId": 42,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% villages declared open defecation free (ODF)": {
+        "indicatorId": 22,
+        "areaId": 42,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% new AWC centres constructed with drinking water facility and toilet in the last one month": {
+        "indicatorId": 23,
+        "areaId": 42,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of wards with adequate, functional and safe drinking water supply": {
+        "indicatorId": 20,
+        "areaId": 42,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      },
+      "% of anganwadi centres with adequate and functional sanitation facilities (toilet)": {
+        "indicatorId": 21,
+        "areaId": 42,
+        "tpId": 5,
+        "value": "",
+        "filedType": "tel",
+        "type": "tel"
+      }
+    }
+  ]

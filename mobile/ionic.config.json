@@ -1,0 +1,10 @@
+{
+  "name": "MITRA",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular" ,
+  "proxies": [
+
+  ]
+}

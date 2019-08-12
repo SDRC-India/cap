@@ -1,0 +1,62 @@
+<div class="container-fluid cap-dashboard-container left-marg">
+  
+  <!-- title and date work -->
+  <div class="row justify-content-between cap-dashboard-dropdown-row">
+    <div class="col dashname">
+      <h4 class="cap-dashboard-title">Raw Data</h4>
+    </div>
+  </div>
+
+
+
+
+  <!-- area dropdown and pdf excel download work -->
+  <div class="row areadrop" *ngIf="!(appService.checkUserAuthorization(['DATA_COLLECTION']) || this.appService.checkUserAuthorization(['USER_MGMT_ALL_API']))">
+
+    <!-- area work -->
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res">
+        <mat-form-field>
+            <mat-label class="label-text">State</mat-label>
+            <mat-select [(value)]="selectedStateCode">
+              <mat-option *ngFor="let area of areas | area: 'IND'" [value]="area.code">
+                {{area.areaname}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res">
+        <mat-form-field>
+            <mat-label class="label-text">District</mat-label>
+            <mat-select [(value)]="selectedDistrictCode" (selectionChange)="districtChanged($event.value)">
+              <mat-option *ngFor="let area of areas | area: selectedStateCode" [value]="area.code">
+                {{area.areaname}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+  </div> 
+</div>
+
+
+<div class="container-fluid left-marg">
+  <form #newF="ngForm">
+  <mat-card>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="container-fluid boxx">
+          <!-- download file -->
+          <div class="col-md-12 col-sm-12 col-xs-12  text-center upload-div">
+            <button class="dwn-btn">
+              <i class="fa fa-download fa-4x" aria-hidden="true" style="cursor: pointer; color: #e16a62;" (click)="downloadReport()"></i>
+            </button>
+            <h4 class="download-info"><span>Download Raw Data Report</span></h4>
+            <b> Note : </b><span>Please download the raw data report from here</span>
+          </div>
+          <!-- end download file section -->
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</form>
+</div>

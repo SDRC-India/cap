@@ -1,0 +1,50 @@
+[
+    [
+      {
+        "axis": "School",
+        "value": 17,
+        "id": 48,
+        "legend": "SC",
+        "cssClass": "firstslices"
+      },
+      {
+        "axis": "Community",
+        "value": 16,
+        "id": 52,
+        "legend": "SC",
+        "cssClass": "firstslices"
+      }
+    ],
+    [
+      {
+        "axis": "School",
+        "value": 18,
+        "id": 49,
+        "legend": "ST",
+        "cssClass": "secondslices"
+      },
+      {
+        "axis": "Community",
+        "value": 13,
+        "id": 53,
+        "legend": "ST",
+        "cssClass": "secondslices"
+      }
+    ],
+    [
+      {
+        "axis": "School",
+        "value": 17,
+        "id": 50,
+        "legend": "OC",
+        "cssClass": "thirdslices"
+      },
+      {
+        "axis": "Community",
+        "value": 15,
+        "id": 54,
+        "legend": "OC",
+        "cssClass": "thirdslices"
+      }
+    ]
+  ]

@@ -1,0 +1,64 @@
+.cap-dashboard-title {
+    margin-top: 5px;
+    color: #d85c54;
+  }
+.cap-dashboard-title::after {
+    display: block;
+    content: '';
+    width: 102%;
+    height: 2px;
+    background: grey;
+    margin-top: 5px;
+  }
+.cap-dashboard-container {
+    margin-top: 80px;
+    margin-bottom: 21px;
+  }
+.cap-dashboard-container .areadrop {
+    padding-left: 27px;
+    padding-top: 27px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #f7ede9;
+  }
+.back{
+  display: flex;
+}
+.send-btn{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.send{
+  background-color: #d85c54;
+  border-radius: 0;
+  width: 14%;
+}
+thead{
+  background-color: #795343;
+  color: white;
+}
+.table thead th {
+  border: 1px solid #dee2e6;
+  width: 10%;
+}
+tbody td {
+  border: 1px solid #dee2ef;
+}
+input.mat-input-element {
+  margin-top: -.0625em;
+  border: 1px solid #ddd;
+}
+.back-title{
+  background-color: #d85c54;
+  color: #fff;
+  border-radius: 0;
+  z-index: 999;
+  position: absolute;
+  top: 10px;
+}
+.table{
+  margin-top: 60px;
+}
+.capitalize{
+  text-transform: capitalize;
+}

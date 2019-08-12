@@ -1,0 +1,43 @@
+<div class=" container cap-body-content">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 responsive-view">
+          <img src="assets/logo/cap_log.png" class="img-responsive img-size">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 " style="text-align:center;">
+          <div class="login-form-container">
+            <header class="col-md-12 login-header" style="text-align:center;"><strong>Login</strong> </header>
+            <div class="container-body">     
+              <form>  
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="text" name="username" class="form-control" [(ngModel)]="credentials.username" placeholder="Username" id="usr" (keyup)="nameError()" autocomplete="off" autocomplete="false" required>            
+                            <small id="nameErr" style="color:red; font-weight: 500;"></small> 
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="password" name="password" class="form-control" [(ngModel)]="credentials.password" placeholder="Password" id="pwd" (keyup)="passError()" autocomplete="off" autocomplete="false" required>            
+                            <small id="passErr" style="color:red; font-weight: 500;"></small> 
+                        </div>
+                    </div>       
+                </div>
+                <span class="forgotpass" (click)="forgotPassword();"> Forgot password? </span>
+                <div class="form-group row">
+                  <div class="col">
+                    <button class="btn btn-default login-submit" type="submit" (click)="login();" [disabled]="!appObj.isValid">Submit</button>
+                  </div>
+                </div>
+              </form> 
+              <div class="row error-message">
+                <div class="col">            
+                  <b>{{appObj.validationMsg}}</b>
+                </div>        
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

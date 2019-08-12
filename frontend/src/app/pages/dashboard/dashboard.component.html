@@ -1,0 +1,209 @@
+<div class="container-fluid cap-dashboard-container left-marg">
+  
+  <!-- title and date work -->
+  <div class="row justify-content-between cap-dashboard-dropdown-row">
+    <div class="col dashname">
+      <h4 class="cap-dashboard-title">Thematic View</h4>
+    </div>
+  </div>
+
+
+  <!-- area dropdown and pdf excel download work -->
+  <div class="row areadrop">
+
+    <!-- area work -->
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res">
+        <mat-form-field>
+            <mat-label class="label-text">State</mat-label>
+            <mat-select [(value)]="selectedStateCode">
+              <mat-option *ngFor="let area of areas | area: 'IND'" [value]="area.code">
+                {{area.areaname}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res">
+        <mat-form-field>
+            <mat-label class="label-text">District</mat-label>
+            <mat-select  [(value)]="selectedDistrictCode" (selectionChange)="districtChanged($event.value)">
+              <mat-option *ngFor="let area of areas | area: selectedStateCode" [value]="area.code"> 
+                {{area.areaname}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res">
+        <mat-form-field>
+            <mat-label class="label-text">Block</mat-label>
+            <mat-select [(value)]="selectedBlockCode" (selectionChange)="blockChanged($event.value)">
+              <mat-option *ngFor="let area of blocks" [value]="area.code">
+                {{area.areaname}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res" id="my-content">
+        <mat-form-field>
+          <mat-label class="label-text">Department</mat-label>
+          <mat-select [(value)]="selectedDepartmentId" (selectionChange)="departmentChanged($event.value)">
+            <mat-option *ngFor="let dept of departments" [value]="dept.id">
+              {{dept.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    <div class="col-12 col-md-3 col-sm-3 cap-dropdown-res" id="my-content">
+      <mat-form-field>
+          <mat-label class="label-text">Theme</mat-label>
+          <mat-select [(value)]="selectedThemeId" (selectionChange)="themeSelected($event.value)">
+            <mat-option *ngFor="let theme of themes; let i = index" [value]="theme.id"> 
+              {{theme.name}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+  </div>
+
+
+
+    <!-- pdf and excel icon work -->
+    <div class="col-md-3 col-sm-12 cap-icons">
+        <i class="far fa-file-excel" style="color: #795343;font-size: 25px; margin-right: 5px;cursor: pointer;" (click)="downloadExcel()" data-toggle="tooltip" title="Download Excel"></i>
+        <i class="far fa-file-pdf" style="color: #795343;font-size: 25px;cursor: pointer;" (click)="downloadPDF()" data-toggle="tooltip" title="Download PDF"></i>
+    </div>
+  </div>
+  <hr>
+</div>
+
+
+<!-- area selection end-->
+
+<div class="container-fluid crcl left-marg" id="outcome-div">
+  <div class="row quick-stats visi">
+    <div class="col-lg-3 col-md-6 col-sm-6 col-12 circle" *ngFor="let outcomeIndicator of outcomeIndicators">
+      <div class="quick-start-in">
+        <div class="quick-rnd">
+         <img class="rnd" src="{{outcomeIndicator.image}}">
+        </div>
+        <span class="count">{{outcomeIndicator.value}}</span>
+        <span class="percent">%</span>
+        <br >
+        <span class="sub-title">{{outcomeIndicator.name}}</span>
+        <br >
+        <span class="sub-title">Source: {{outcomeIndicator.src}} ({{outcomeIndicator.tp}})</span>
+
+      </div>
+    </div>  
+</div>
+</div>
+
+<!--dashboard chart section start-->
+<div class="container-fluid left-marg">
+  <div class="row dashboard-body-div" id="all">
+
+    <!--dashboard left pannel-->
+    <div class="col-lg-2 col-md-2 col-sm-3 cap-dashboard-theme" id = "theme-div">
+        <div class="dept-drop-down">
+            <h5 class="select-theme-title">Select Department</h5>
+            <mat-form-field>
+                <mat-label class="label-text"></mat-label>
+                <mat-select [(value)]="selectedDepartmentId" (selectionChange)="departmentChanged($event.value)">
+                  <mat-option *ngFor="let dept of departments" [value]="dept.id">
+                    {{dept.name}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+          </div>
+        <h5 class="select-theme-title">Select Theme</h5>
+        <div class="select-scroll">
+        <div *ngFor="let theme of themes; let i = index" class="cap-theme-item" (click)="themeSelected(theme.id)" [ngClass]="{'background-selected':selectedThemeId === theme.id}">
+          <!-- <div class="alphabet-item">{{getChar(i)}}. </div> -->
+          <div class="theme-item">{{theme.name}}</div>            
+        </div>
+        </div>
+    </div>
+    
+    <!-- chart work -->
+    <div class="col-lg-10 col-md-10 col-sm-9 cap-dashboard-kpi-and-chart">
+      
+      
+      <div class="row cap-dashboard-chart-row">
+        <div class="col cap-chart">
+            <div  id = "chart-div" class="cap-chart-middle" *ngIf="barChartData && barChartData[0]?.length>0">
+
+              <!-- The legend row -->
+              <div class="row justify-content-between legend-row">
+                <div class="col legend-left">
+                  <div style="display: flex">
+                      <div class="legend-baseline">
+                          <div class="legend-baseline-box"></div>
+                      </div>
+                      <div class="legend-text-baseline">Baseline</div>
+                      <div class="legend-mrt">
+                        <div class="legend-mrt-box"></div>
+                      </div>
+                      <div class="legend-text-mrt">MRT</div>
+                      <div class="legend-target">
+                        <div class="legend-target-box"></div>
+                      </div>
+                      <div class="legend-text-target">Target</div>
+                  </div>                    
+                </div>
+                <div class="col">
+                    <div class="legend-right-img">
+                        <!-- <i class="fa fa-image" style="color: #795343;font-size: 25px;cursor: pointer;" (click)="imageDownload($event, 'cap-chart-id', 'bar-chart')"></i>  -->
+                    </div>
+                    <div class="legend-right-img">
+                        <i class="fas fa-chart-line" style="color: #795343;font-size: 25px;cursor: pointer;margin-right: 10px;" (click)="lineChart()"></i>
+                    </div>  
+                </div>
+                
+                
+              </div>
+
+              <!-- the chart wrapper div -->
+              <div class="cap-chart-inner">
+                  <sdrc-bar-chart [data]="barChartData"></sdrc-bar-chart>
+              </div>
+            </div>
+            <div class="cap-chart-middle" *ngIf="barChartData && barChartData[0]?.length == 0">
+              <div class="no-data-found">No data found</div>
+            </div>
+            <!-- <div *ngIf="chartData && chartData.length == 0" class="no-data-found">No data found</div> -->
+        </div>
+      </div>     
+    </div>
+  </div>
+</div>
+<!--dashboard chart section ends-->
+
+<!-- backdrop line chart-->
+  <div class="line-chart-bd" *ngIf="showLineChart">
+    
+   
+      <div class="row line-chart-container" id="line-chart-id">
+          <div class="cancel-button-div">
+              <i class="fas fa-times" *ngIf="lineChartData[1] d-none" style="cursor: pointer;color: white;padding-top: 20px;padding-right: 10px;" (click)="closeLineChartPopup()"></i>
+          </div>
+
+        <div class="line-chart-wrapper" [ngClass]="lineChartData.length > 1?'col-md-6':'col-md-12 single-line-chart'" *ngFor="let data of lineChartData; let i = index">
+            <div class="line-chart" id="{{lineChartData[i].title}}">
+              <div class="line-chart-title">
+                  <div class="line-chart-title-span">{{lineChartData[i].title}}</div>
+                  <div class="line-chart-title-icon">
+                    <i class="fas fa-times" *ngIf="!lineChartData[1]" style="cursor: pointer;color: white;padding-top: 20px;padding-right: 10px;position: relative;right: -23px;top: -28px;" (click)="closeLineChartPopup()"></i> 
+                    <i class="fa fa-image " *ngIf="lineChartData[1] d-none" style="cursor: pointer;color:#fff;position: relative;left: 0px; top: 20px;" (click)="imageDownload($event, lineChartData[i].title, lineChartData[i].title)"></i>
+                    <i class="fa fa-image" *ngIf="!lineChartData[1]" style="cursor: pointer;color: #fff;position: relative;left: 0px;" (click)="imageDownload($event, lineChartData[i].title, lineChartData[i].title)"></i>
+                  </div>
+                
+              </div>
+            
+              <div class="line-chart-body" id={{lineChartData[i].title}}>
+                
+                  <sdrc-line-chart [data]="lineChartData[i].data"></sdrc-line-chart>
+                  
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  

@@ -1,0 +1,48 @@
+<div class="container-fluid cap-dashboard-container left-marg">
+    <div class="col-md-12 dashname">
+      <h4 class="cap-dashboard-title">Target Data Entry Form</h4>
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="col-md-12">
+      <div class="back">
+          <button mat-flat-button color="primary"  class="back-title"  (click)="goback()"> Back</button>
+          <!-- <i class="material-icons back-arrow" (click)="goback()"> arrow_back </i> <span class="goback" (click)="goback()">Back</span> -->
+      </div>
+  </div>
+
+  <div class="col-md-12 table">
+      <!-- <form [formGroup]="tableForm" (submit)="targetform.valid?submit():''" class="rawForm" #targetform="ngForm"> -->
+    <table class="table-responsive">
+      <thead>
+        <tr>
+            <th *ngFor="let col of allDataKeys" class="capitalize">{{col}}</th>
+        </tr>       
+      </thead>
+      <tbody>
+          <tr *ngFor="let rows of allData ; let rowIndex = index">
+              <td  *ngFor="let td of allDataKeys; let columnIndex = index">
+                <span *ngIf="columnIndex == 0">{{rows[td]}}</span>
+                <div   *ngIf="columnIndex != 0">
+                  
+                  
+                        <input [type]="rows[td].type" id="value-{{rowIndex+columnIndex}}" matInput pattern="\d*"  class="form-control" name="value-{{rowIndex+columnIndex}}"
+                        [(ngModel)]="rows[td].value" 
+                        (keyup)="indicatorValue(rows, td, $event)"  (blur)="emit(rows, td)"  required >
+                       
+                    
+                </div>
+              
+              </td>
+             
+          </tr> 
+      </tbody>
+    </table>
+  
+    <!-- </form> -->
+  </div>
+  
+  <div class="col-md-12 send-btn" >
+      <button mat-flat-button color="primary" type="submit" (click)="submit()" class="send"> Submit</button>
+  </div>
+</div> 
